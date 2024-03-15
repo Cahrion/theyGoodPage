@@ -1,0 +1,136 @@
+CRITICAL - 2024-03-10 07:10:36 --> Undefined variable $myClose
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:15:34 --> Undefined variable $incomingName
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-03-10 15:18:14 --> Unknown column 'createdDate' in 'field list'
+CRITICAL - 2024-03-10 15:18:14 --> Undefined array key "id"
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-03-10 15:20:08 --> Unknown column 'createdDate' in 'field list'
+ERROR - 2024-03-10 15:21:24 --> Unknown column 'createdDate' in 'field list'
+CRITICAL - 2024-03-10 15:22:50 --> Undefined array key "id"
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:37:12 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:37:31 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:37:40 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:37:55 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:37:56 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:38:39 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:39:39 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 15:39:53 --> Undefined variable $supllyID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-10 08:19:48 --> Undefined array key "Bank"
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(78): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-10 08:45:53 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(80): view('home', Array)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-10 08:47:14 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(80): view('home', Array)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-10 08:47:37 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(80): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-10 08:51:25 --> Undefined variable $bankID
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,41 @@
+CRITICAL - 2022-10-19 15:02:20 --> Attempt to read property "deskUniqueName" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->orderLast()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-19 15:02:40 --> Attempt to read property "deskUniqueName" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->orderLast()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-19 15:02:43 --> Attempt to read property "deskUniqueName" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->orderLast()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-19 15:02:44 --> Attempt to read property "deskUniqueName" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->orderLast()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-19 15:03:17 --> Too few arguments to function App\Controllers\Fpanel\Log::delete_result(), 0 passed in C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Log->delete_result()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Log))
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-19 15:33:09 --> Attempt to read property "deskUniqueName" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->orderLast()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

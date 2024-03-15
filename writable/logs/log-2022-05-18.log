@@ -1,0 +1,44 @@
+ERROR - 2022-05-18 13:54:19 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-05-18 13:54:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(43): App\Models\IslemModel->getRoomInfo(1652850000, 1652850000)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-18 14:18:46 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-05-18 14:18:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\weProject\weSite\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weSite\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weSite\app\Models\IslemModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weSite\app\Controllers\Details.php(14): App\Models\IslemModel->getRooms()
+#4 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Details->room()
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#6 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-18 14:28:01 --> Invalid file: weRoom.php
+#0 C:\xampp\htdocs\weProject\weSite\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('weRoom.php')
+#1 C:\xampp\htdocs\weProject\weSite\system\Common.php(1089): CodeIgniter\View\View->render('weRoom', Array, true)
+#2 C:\xampp\htdocs\weProject\weSite\app\Controllers\Details.php(16): view('weRoom', Array)
+#3 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Details->index()
+#4 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-18 14:30:46 --> Call to undefined function DonusumleriGeriDondur()
+#0 C:\xampp\htdocs\weProject\weSite\app\Views\index.php(25): include()
+#1 C:\xampp\htdocs\weProject\weSite\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSite\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSite\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\weProject\weSite\app\Controllers\Home.php(9): view('index')
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

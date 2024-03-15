@@ -1,0 +1,121 @@
+CRITICAL - 2022-11-18 15:31:40 --> utf8_encode(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): utf8_encode(Array)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:32:12 --> Call to undefined function App\Controllers\encode_php_tags()
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-18 15:32:21 --> Call to undefined function App\Controllers\encode_php_tags()
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-18 15:33:30 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): implode('---', Array)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:33:31 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): implode('---', Array)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:34:20 --> unserialize(): Argument #1 ($data) must be of type string, array given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(52): unserialize(Array)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:35:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-18 15:46:53 --> Attempt to assign property "productName" on array
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-18 15:47:06 --> Undefined array key 1
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:47:37 --> syntax error, unexpected token "echo", expecting "function" or "const"
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('OurPackages')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('OurPackages')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:47:56 --> Undefined variable $extrasProductName
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:51:06 --> Attempt to assign property "extraProductName" on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-18 15:52:15 --> Undefined array key 0
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:54:47 --> Undefined array key 0
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:57:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 15:58:07 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(83): implode('---', Array)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 16:00:20 --> Undefined array key 1
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-18 16:01:15 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

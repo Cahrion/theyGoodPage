@@ -1,0 +1,38 @@
+CRITICAL - 2024-03-09 00:13:22 --> Undefined variable $variables
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\stock.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('stock', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(45): view('stock', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->halkarz()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-09 00:45:38 --> Array to string conversion
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\supply.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('supply', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(44): view('supply', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->halkarz()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-09 01:38:23 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Helpers\fonksiyonlar_helper.php(10): trim(Array)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Helpers\minRequire_helper.php(39): SecurityFilter(Array)
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Stock.php(72): SecurityMaster(Array, Array)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Stock->createNewOnehalkarz()
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-09 01:39:45 --> syntax error, unexpected end of file, expecting variable or string content or "${" or "{$"
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Stock/halkarz')
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Stock/halkarz')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

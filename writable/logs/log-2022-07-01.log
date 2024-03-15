@@ -1,0 +1,302 @@
+ERROR - 2022-07-01 08:26:40 --> Table 'menum.log' doesn't exist
+ERROR - 2022-07-01 08:26:49 --> Table 'menum.log' doesn't exist
+ERROR - 2022-07-01 08:26:49 --> Table 'menum.log' doesn't exist
+ERROR - 2022-07-01 08:26:49 --> Table 'menum.setting' doesn't exist
+CRITICAL - 2022-07-01 08:26:49 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Panel.php(28): App\Models\SettingModel->getSettings()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Tamam')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.we' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.reference' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.ourquality' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.skills' doesn't exist
+ERROR - 2022-07-01 08:28:39 --> Table 'menum.faq' doesn't exist
+CRITICAL - 2022-07-01 08:28:39 --> Undefined variable $settings
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\pano.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/pano', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Panel.php(53): view('Fpanel/pano', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Tamam')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.we' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.reference' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.ourquality' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.skills' doesn't exist
+ERROR - 2022-07-01 08:30:40 --> Table 'menum.faq' doesn't exist
+ERROR - 2022-07-01 08:31:13 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:31:13 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:31:19 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:31:19 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:32:45 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:32:45 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:32:53 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:32:53 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:32:56 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:32:56 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 08:33:42 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 08:33:42 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 08:35:17 --> Undefined property: stdClass::$image
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\mainPage.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/mainPage', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\MainPage.php(51): view('Fpanel/mainPage', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->index()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 08:37:56 --> Undefined property: stdClass::$SosyalLinkEmail
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\includes\footer.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\mainPage.php(56): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/mainPage', Array, true)
+#5 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\MainPage.php(51): view('Fpanel/mainPage', Array)
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->index()
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#8 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-01 08:50:45 --> Unknown column 'baslik' in 'field list'
+CRITICAL - 2022-07-01 08:50:56 --> unlink(img/683c8b43577efee7e291d9a2e.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/683c...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\MainPage.php(207): unlink('img/683c8b43577...')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('34')
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-01 08:51:09 --> unlink(img/683c8b43577efee7e291d9a2e.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/683c...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\MainPage.php(207): unlink('img/683c8b43577...')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('34')
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-01 08:51:29 --> unlink(img/683c8b43577efee7e291d9a2e.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/683c...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\MainPage.php(252): unlink('img/683c8b43577...')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->delete_result('34')
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-01 08:52:57 --> Unknown column 'baslik' in 'field list'
+ERROR - 2022-07-01 09:01:07 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 09:01:07 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 09:01:10 --> Attempt to read property "requireUser" on null
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Owner.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 09:02:48 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 09:02:48 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 01:02:49 --> Table 'menum.ayarlar' doesn't exist
+CRITICAL - 2022-07-01 01:02:49 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(12): App\Models\IslemModel->updSumUsers()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 01:03:32 --> Undefined property: stdClass::$SiteTitle
+#0 C:\xampp\htdocs\weProject\menum\app\Views\includes\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\menum\app\Views\index.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(21): view('index', Array)
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-01 09:09:28 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 09:09:28 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 09:09:29 --> Invalid file: Fpanel/owner.php
+#0 C:\xampp\htdocs\weProject\menum\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Fpanel/owner.ph...')
+#1 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/owner', Array, true)
+#2 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Owner.php(61): view('Fpanel/owner', Array)
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->index()
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 01:57:45 --> Undefined variable $IceriklerBilgisi
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\categoryUpdate.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category...', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Category.php(174): view('Fpanel/category...', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update('134')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 01:58:09 --> Undefined variable $IceriklerBilgisi
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\categoryUpdate.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category...', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Category.php(174): view('Fpanel/category...', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update('134')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 01:58:11 --> Undefined variable $IceriklerBilgisi
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\categoryUpdate.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category...', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Category.php(174): view('Fpanel/category...', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update('134')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 01:58:22 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update_result('134')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 01:58:54 --> Undefined property: stdClass::$photo
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Category.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 280)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->delete_result('134')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 10:07:21 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:07:21 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 10:07:29 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:07:29 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 02:11:40 --> Undefined array key "name"
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add_result()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 02:17:21 --> Unknown column 'name' in 'field list'
+CRITICAL - 2022-07-01 02:19:03 --> Undefined property: stdClass::$urunName
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\category.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\category.php(68): UrunYaz('2', 40)
+#2 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\category.php(70): MenuYaz('1', 20)
+#3 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\category.php(97): MenuYaz(0)
+#4 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#7 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Category.php(45): view('Fpanel/category', Array)
+#8 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#9 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#10 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-01 02:23:35 --> Undefined variable $contentInfo
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\productUpdate.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productU...', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Product.php(154): view('Fpanel/productU...', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('210')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 02:25:28 --> Undefined property: stdClass::$urunName
+#0 C:\xampp\htdocs\weProject\menum\app\Views\Fpanel\productUpdate.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productU...', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Fpanel\Product.php(154): view('Fpanel/productU...', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('210')
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 02:26:27 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('210')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-01 10:30:26 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:30:26 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 10:32:06 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:32:06 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 10:32:08 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:32:08 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 02:32:33 --> Undefined property: stdClass::$Resim
+#0 C:\xampp\htdocs\weProject\menum\app\Views\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(21): view('index', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 02:34:40 --> Undefined property: stdClass::$SocialLinkEmail
+#0 C:\xampp\htdocs\weProject\menum\app\Views\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(21): view('index', Array)
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-01 02:39:53 --> Table 'menum.urunler' doesn't exist
+CRITICAL - 2022-07-01 02:39:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\OurPackages.php(30): App\Models\IslemModel->getProductTopID('2')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\OurPackages->index('Kahvaltilar', '1')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 10:46:08 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:46:08 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 10:48:42 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:48:42 --> Table 'menum.ourpackages' doesn't exist
+ERROR - 2022-07-01 10:49:17 --> Table 'menum.category' doesn't exist
+ERROR - 2022-07-01 10:49:17 --> Table 'menum.ourpackages' doesn't exist
+CRITICAL - 2022-07-01 03:05:01 --> Undefined property: stdClass::$urunName
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 03:05:05 --> Undefined property: stdClass::$urunName
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 03:05:06 --> Undefined property: stdClass::$urunName
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,1037 @@
+CRITICAL - 2024-02-11 13:57:05 --> file_get_contents(https://query1.finance.yahoo.com/v7/finance/quote?symbols=CIMSA.IS): Failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(35): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getMyBors()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:31:03 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/DAPGM.IS?range=10d&amp;interval=10d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(49): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetails()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:31:28 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/DAPGM.IS?range=10d&amp;interval=10d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(49): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetails()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:32:44 --> Undefined array key -1
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-11 06:32:45 --> Undefined array key -1
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-11 06:33:13 --> Undefined array key -1
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-11 06:33:46 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(48): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetails()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:33:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(87): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:34:20 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-11 06:44:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('welcome', Array, true)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(23): view('welcome', Array)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-11 06:47:39 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:39 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:39 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:39 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:39 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:40 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:47:58 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:12 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:12 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:12 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:12 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:13 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:35 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:36 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:54 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:55 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:56 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-02-11 06:48:57 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/myD.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(91): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->getCompanyDetailsLast()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

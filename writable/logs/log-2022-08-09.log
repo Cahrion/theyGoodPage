@@ -1,0 +1,180 @@
+CRITICAL - 2022-08-09 14:24:34 --> Undefined variable $incomingId
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 06:29:44 --> Undefined variable $incomingId
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Log.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Log->logAll()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Log))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 15:05:44 --> Undefined variable $whichExtras
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\mainPage.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/mainPage', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\MainPage.php(61): view('Fpanel/mainPage', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->index()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 15:06:01 --> Undefined variable $whichExtras
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\mainPage.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/mainPage', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\MainPage.php(61): view('Fpanel/mainPage', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->index()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 07:37:53 --> Attempt to read property "CartID" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('1')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 09:22:03 --> Undefined variable $activeDesk
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\includes\bottomBar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\index.php(77): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(23): view('index', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-09 09:25:58 --> Undefined variable $activeDesk
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\includes\bottomBar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\index.php(77): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(32): view('index', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-09 09:31:37 --> Unclosed '{' on line 29 does not match ')'
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('contact')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('contact')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 11:57:59 --> Undefined variable $activeSumPrice
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\includes\bottomBar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\cart.php(42): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(71): view('cart', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->index('200')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-09 11:59:54 --> Call to undefined function App\Models\SecurityFilter()
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(20): App\Models\DeskModel->checkDeskPackage()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 12:00:33 --> Undefined variable $activeSumPrice
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\includes\bottomBar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\index.php(77): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(32): view('index', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-09 12:04:18 --> Undefined variable $Cart
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 13:01:32 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 13:06:06 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->index('200')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 13:25:59 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cart...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\SoftPHP.php(55): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cart...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getCart()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-09 13:26:02 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cart...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Home.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cart...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-09 22:17:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(301): CodeIgniter\Model->__call('delCart', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->update_change_desk()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-09 22:18:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(302): CodeIgniter\Model->__call('delCart', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->update_change_desk()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-09 22:19:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(301): CodeIgniter\Model->__call('delCart', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->update_change_desk()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-09 23:20:19 --> Invalid file: Fpanel/extraProductAdd.php
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Fpanel/extraPro...')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/extraPro...', Array, true)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\ExtraProduct.php(63): view('Fpanel/extraPro...', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

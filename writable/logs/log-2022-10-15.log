@@ -1,0 +1,20 @@
+CRITICAL - 2022-10-15 10:34:33 --> Cannot redeclare App\Models\TriggerModel::checkDesk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-15 10:34:37 --> Cannot redeclare App\Models\TriggerModel::checkDesk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-15 10:34:41 --> Cannot redeclare App\Models\TriggerModel::checkDesk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-15 10:41:18 --> Undefined variable $triggerCallWaiter
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\waiter.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/waiter', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Waiter.php(87): view('Fpanel/waiter', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Waiter->index('Okey')
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Waiter))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

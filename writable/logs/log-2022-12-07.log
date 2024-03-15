@@ -1,0 +1,123 @@
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+ERROR - 2022-12-07 07:44:58 --> Table 'my_blog.extraproduct' doesn't exist
+CRITICAL - 2022-12-07 07:49:42 --> Undefined array key "productSumExtraProduct"
+#0 C:\xampp\htdocs\myProject\myBlog\app\Helpers\category_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myProject\myBlog\app\Helpers\category_helper.php(159): productWrite(Array, 40)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Helpers\category_helper.php(161): menuWrite(Array, 20)
+#3 C:\xampp\htdocs\myProject\myBlog\app\Views\Fpanel\category.php(76): menuWrite(Array)
+#4 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#7 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Fpanel\Category.php(112): view('Fpanel/category', Array)
+#8 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#9 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#10 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-07 07:50:30 --> Class "App\Models\ExtraProductModel" not found
+#0 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('274')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 08:26:26 --> Undefined variable $clickEvent
+#0 C:\xampp\htdocs\myProject\myBlog\app\Helpers\category_helper.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\myProject\myBlog\app\Views\Fpanel\category.php(76): menuWrite(Array)
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#5 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Fpanel\Category.php(112): view('Fpanel/category', Array)
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index('200')
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#8 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 01:40:05 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 01:40:05 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 01:40:05 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 01:40:05 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 13:57:25 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('359')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

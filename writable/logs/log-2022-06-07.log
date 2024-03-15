@@ -1,0 +1,312 @@
+ERROR - 2022-06-07 05:39:00 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 05:39:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 06:06:04 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 06:06:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 06:11:07 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 06:11:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 06:38:31 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 06:38:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 12:49:22 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 12:49:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 12:52:15 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 12:52:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 12:55:03 --> Error connecting to the database: Unknown MySQL server host 'cpses_do5yatfrek@localhost' (-2)
+CRITICAL - 2022-06-07 12:55:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown MySQL server host 'cpses_do5yatfrek@localhost' (-2)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 12:56:55 --> Error connecting to the database: Unknown MySQL server host 'cpses_do5yatfrek@localhost' (-2)
+CRITICAL - 2022-06-07 12:56:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown MySQL server host 'cpses_do5yatfrek@localhost' (-2)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:05:48 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****'
+CRITICAL - 2022-06-07 13:05:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:13:23 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****'
+CRITICAL - 2022-06-07 13:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:13:25 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****'
+CRITICAL - 2022-06-07 13:13:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:13:47 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****'
+CRITICAL - 2022-06-07 13:13:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:18:09 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 13:18:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:18:11 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2022-06-07 13:18:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:21:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:21:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:24:09 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:24:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:24:45 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:24:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:24:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:24:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:25:26 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:25:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:25:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:25:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:25:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:25:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:26:00 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:26:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:26:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-07 13:26:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:28:44 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****_cahrion'
+CRITICAL - 2022-06-07 13:28:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****_cahrion'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:29:30 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****_cahrion'
+CRITICAL - 2022-06-07 13:29:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****_cahrion'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-07 13:29:55 --> Error connecting to the database: Access denied for user '****'@'31.192.214.51' to database '****_cahrion'
+CRITICAL - 2022-06-07 13:29:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'31.192.214.51' to database '****_cahrion'
+#0 /home/dorbistr/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dorbistr/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dorbistr/public_html/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dorbistr/public_html/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/dorbistr/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/dorbistr/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/dorbistr/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dorbistr/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,336 @@
+CRITICAL - 2022-08-07 01:55:15 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-07 01:56:07 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-07 01:56:26 --> Undefined variable $orderDeskNamee
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Order.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-07 09:57:41 --> unlink(img/f481bf454c815733ff2714323.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/f481...', 'C:\\xampp\\htdocs...', 213)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\MainPage.php(213): unlink('img/f481bf454c8...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('38')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 09:57:46 --> unlink(img/f481bf454c815733ff2714323.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/f481...', 'C:\\xampp\\htdocs...', 213)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\MainPage.php(213): unlink('img/f481bf454c8...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('38')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 09:57:58 --> unlink(img/f481bf454c815733ff2714323.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/f481...', 'C:\\xampp\\htdocs...', 258)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\MainPage.php(258): unlink('img/f481bf454c8...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->delete_result('38')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 10:15:07 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(79): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('17')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-07 10:16:09 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(79): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('17')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-07 10:16:10 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(79): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('17')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-07 10:16:18 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Desk->__construct()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-07 10:16:43 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(79): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('17')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-07 10:17:03 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(80): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('17')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-07 15:34:35 --> Undefined variable $Printers
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\printer.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/printer', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Printer.php(59): view('Fpanel/printer', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Printer->index()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Printer))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-07 15:35:18 --> Table 'demofmenu.printer' doesn't exist
+CRITICAL - 2022-08-07 15:35:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Printer.php(59): App\Models\Admin\APrinterModel->getPrinters()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Printer->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Printer))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-07 15:42:22 --> Unknown column 'userName' in 'field list'
+CRITICAL - 2022-08-07 16:12:10 --> Class "App\Models\YonetimModel" not found
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(58): view('Fpanel/category', Array)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 16:17:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(59): CodeIgniter\Model->__call('getCategoriesfo...', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-07 16:22:00 --> Undefined property: stdClass::$photo
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 271)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->delete_result('211')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-07 16:32:48 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Database\Query.php(318): strtr('UPDATE `product...', Array)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `product...', Array)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\Admin\AProductModel.php(27): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(246): App\Models\Admin\AProductModel->updProductImg('76', Array)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('76')
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#9 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-07 16:34:52 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('76')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-07 16:36:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(122): CodeIgniter\Model->__call('getInsertLastID', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->add_result()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-07 16:41:14 --> unlink(img/79fedf538c777ec3d1561207a.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/79fe...', 'C:\\xampp\\htdocs...', 280)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(280): unlink('img/79fedf538c7...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->delete_result('76')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 16:50:19 --> unlink(img/33fe8eadda4e92706796eddd5.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/33fe...', 'C:\\xampp\\htdocs...', 225)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(225): unlink('img/33fe8eadda4...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('213')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 16:52:32 --> unlink(img/productImg/33fe8eadda4e92706796eddd5.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/prod...', 'C:\\xampp\\htdocs...', 225)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Product.php(225): unlink('img/productImg/...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('213')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-07 17:56:27 --> Call to undefined function DonusumleriGeriDondur()
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\contact.php(52): include()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/contact', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Contact.php(53): view('Fpanel/contact', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Contact->index()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Contact))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-07 10:15:11 --> Call to undefined function App\Models\GuvenlikFiltresi()
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(22): App\Models\DeskModel->checkDeskPackage()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\OurPackages->__construct()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-07 10:17:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(26): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:18:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:19:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:20:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:20:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:20:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:20:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:20:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(33): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:33:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(37): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:33:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\CategoryModel.php(37): CodeIgniter\Model->__call('getProductsFM', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(31): App\Models\CategoryModel->getOurAll()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-07 10:35:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(32): CodeIgniter\Model->__call('getSettings', Array)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

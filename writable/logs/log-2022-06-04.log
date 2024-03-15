@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-04 09:51:12 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/vol10_1/e...', 250, Array)
+#1 /home/vol10_1/epizy.com/epiz_31856209/htdocs/app/Controllers/Yonetim/Anasayfa.php(250): unlink('img/')
+#2 /home/vol10_1/epizy.com/epiz_31856209/htdocs/system/CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->sil_sonuc('35')
+#3 /home/vol10_1/epizy.com/epiz_31856209/htdocs/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#4 /home/vol10_1/epizy.com/epiz_31856209/htdocs/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vol10_1/epizy.com/epiz_31856209/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

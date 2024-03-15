@@ -1,0 +1,234 @@
+ERROR - 2022-06-29 10:32:27 --> Error connecting to the database: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+CRITICAL - 2022-06-29 10:32:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+#0 C:\xampp\htdocs\weProject\menum\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\menum\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\menum\app\Models\IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-29 10:32:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-29 10:32:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\menum\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\menum\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\menum\app\Models\IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-29 10:32:40 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-29 10:32:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\menum\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\menum\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\menum\app\Models\IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\menum\app\Controllers\Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-29 13:45:17 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:45:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(24): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:45:32 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:45:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(24): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:45:32 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:45:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(24): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:50:52 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:50:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:51:05 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:51:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:56:36 --> Unknown column 'ws' in 'where clause'
+CRITICAL - 2022-06-29 13:56:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('ws')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:56:36 --> Unknown column 'ws' in 'where clause'
+CRITICAL - 2022-06-29 13:56:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('ws')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 13:56:54 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 13:56:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 14:01:56 --> Unknown column 'aa' in 'where clause'
+CRITICAL - 2022-06-29 14:01:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('aa')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 14:01:59 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 14:01:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 14:02:25 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 14:02:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 14:05:52 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 14:05:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-29 14:06:03 --> Unknown column 'a' in 'where clause'
+CRITICAL - 2022-06-29 14:06:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\menum\app\Controllers\SoftPHP.php(25): App\Models\IslemModel->getLikeProduct('a')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 14:08:37 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:08:52 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:08:55 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:09:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:09:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:13:09 --> [] operator not supported for strings
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:13:31 --> Unclosed '{' on line 16 does not match ']'
+#0 C:\xampp\htdocs\weProject\menum\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('softPHP')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('softPHP')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 14:13:34 --> Unclosed '{' on line 16 does not match ']'
+#0 C:\xampp\htdocs\weProject\menum\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('softPHP')
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('softPHP')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 14:41:49 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:42:24 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:42:26 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:42:58 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:43:12 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:43:53 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-29 14:43:59 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#1 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

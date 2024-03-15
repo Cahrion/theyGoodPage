@@ -1,0 +1,113 @@
+CRITICAL - 2022-11-24 08:51:16 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-24 08:51:56 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-24 08:51:58 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-24 08:51:58 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-24 08:51:59 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-24 08:57:08 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-24 08:57:08 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-24 08:57:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastQuery()
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-24 09:01:49 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-24 09:01:49 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-24 09:02:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 4
+CRITICAL - 2022-11-24 09:02:06 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-24 09:02:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 4
+CRITICAL - 2022-11-24 09:02:15 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-24 09:02:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 4
+CRITICAL - 2022-11-24 09:02:23 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(83): App\Models\ProductModel->getProduct('2')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-24 09:07:25 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

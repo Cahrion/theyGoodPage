@@ -1,0 +1,22 @@
+CRITICAL - 2022-09-29 18:01:11 --> Undefined variable $colorClass
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\desk.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/desk', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(79): view('Fpanel/desk', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->index('Okey')
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-29 18:08:01 --> Undefined variable $colorClass
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\waiter.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/waiter', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Waiter.php(75): view('Fpanel/waiter', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Waiter->index('Okey')
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Waiter))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

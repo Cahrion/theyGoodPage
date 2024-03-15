@@ -1,0 +1,63 @@
+CRITICAL - 2022-10-29 10:37:33 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\weProject\DemoFmenu\app\Models\Admin\AExtraProductModel.php on line 39
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\Admin\AExtraProductModel.php(39): CodeIgniter\Database\BaseBuilder->update('123123')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(536): App\Models\Admin\AExtraProductModel->updExtraProduct('10', '123123', '27', '225')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(519): App\Controllers\Fpanel\Category->productIndexUpdate(Array, '10', 9)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->productIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-29 10:53:54 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\weProject\DemoFmenu\app\Models\Admin\AExtraProductModel.php on line 39
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Models\Admin\AExtraProductModel.php(39): CodeIgniter\Database\BaseBuilder->update('123123')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(536): App\Models\Admin\AExtraProductModel->updExtraProduct('11', '123123', '111', '225')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(519): App\Controllers\Fpanel\Category->productIndexUpdate(Array, '11', 10)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->productIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-29 11:00:42 --> Attempt to read property "rankID" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Category->__construct()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-10-29 11:01:51 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-10-29 11:01:51 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+CRITICAL - 2022-10-29 12:22:35 --> Attempt to read property "rumuz" on array
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(101): App\Controllers\Fpanel\Category->menuWrite()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-29 12:22:40 --> Attempt to read property "rumuz" on array
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(101): App\Controllers\Fpanel\Category->menuWrite()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-29 12:24:19 --> Undefined array key "categoryaRumuz"
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(104): App\Controllers\Fpanel\Category->menuWrite()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-29 19:19:31 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-10-29 19:19:31 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+CRITICAL - 2022-10-29 19:21:10 --> Undefined variable $Content
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(104): App\Controllers\Fpanel\Category->menuWrite()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-29 19:38:14 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-10-29 19:38:14 --> Table 'fbeslife_demofmenu.contact' doesn't exist

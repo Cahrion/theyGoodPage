@@ -1,0 +1,122 @@
+ERROR - 2022-04-30 08:06:01 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-30 08:06:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(46): App\Models\IslemModel->getRoomInfo(1651294800)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-30 12:07:16 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\weProject\weHotel\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('reservation')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('reservation')
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 13:24:52 --> time() expects exactly 0 arguments, 1 given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(47): time('29-0-2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(51): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-30 15:56:30 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(67): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 15:56:31 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(67): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:03:35 --> Unsupported operand types: string - int
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(40): dateFoundMonth('')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:04:16 --> Undefined array key -1
+#0 C:\xampp\htdocs\weProject\weHotel\app\Helpers\fonksiyonlar_helper.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(40): dateFoundMonth(0)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 16:06:45 --> Undefined array key -1
+#0 C:\xampp\htdocs\weProject\weHotel\app\Helpers\fonksiyonlar_helper.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(46): dateFoundMonth(0)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 16:07:09 --> Undefined array key -1
+#0 C:\xampp\htdocs\weProject\weHotel\app\Helpers\fonksiyonlar_helper.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(46): dateFoundMonth(0)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-30 16:09:08 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(68): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:09:10 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(68): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:09:11 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(68): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:10:01 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(68): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-30 16:10:03 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(68): mktime(0, 0, 0, 'NaN', '1', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-30 16:18:42 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-30 16:18:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(43): App\Models\IslemModel->getRoomInfo(1651294800)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

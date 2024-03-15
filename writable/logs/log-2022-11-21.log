@@ -1,0 +1,616 @@
+CRITICAL - 2022-11-21 00:22:01 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 00:22:07 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(45): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 00:22:07 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 00:22:07 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(45): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 00:22:10 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 00:22:10 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(45): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 00:22:12 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 00:22:12 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(45): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 00:22:55 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 00:22:55 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 00:22:59 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 09:34:57 --> Table 'productdetailsen' already exists
+CRITICAL - 2022-11-21 00:39:06 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(52): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-21 01:01:36 --> Table 'cmenuupped.productdetailsaz' doesn't exist
+CRITICAL - 2022-11-21 01:01:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(124): App\Models\ProductModel->getProductsFM('134')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 01:01:36 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-21 01:01:41 --> Table 'cmenuupped.productdetailsaz' doesn't exist
+CRITICAL - 2022-11-21 01:01:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(124): App\Models\ProductModel->getProductsFM('134')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 01:01:41 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-21 01:05:51 --> Table 'cmenuupped.menudetailsen' doesn't exist
+CRITICAL - 2022-11-21 01:05:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(47): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 01:06:38 --> Table 'cmenuupped.menudetailsen' doesn't exist
+CRITICAL - 2022-11-21 01:06:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(40): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 01:08:51 --> Table 'cmenuupped.menudetailsen' doesn't exist
+CRITICAL - 2022-11-21 01:08:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(40): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 01:09:12 --> Unknown column 'md.MenuID' in 'on clause'
+CRITICAL - 2022-11-21 01:09:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(40): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 01:09:59 --> Unknown column 'md.MenuID' in 'on clause'
+CRITICAL - 2022-11-21 01:09:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(40): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 01:10:16 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:10:32 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:10:45 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:11:15 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:52:54 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:53:36 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:55:18 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:55:23 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 01:58:54 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-21 11:13:28 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:13:28 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(71): App\Models\CategoryModel->getCategory('1')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(83): App\Controllers\Fpanel\Category->menuWrite('1')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(102): App\Controllers\Fpanel\Category->menuWrite()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-11-21 11:13:44 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:13:44 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(71): App\Models\CategoryModel->getCategory('1')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(83): App\Controllers\Fpanel\Category->menuWrite('1')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(102): App\Controllers\Fpanel\Category->menuWrite()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 02:15:44 --> syntax error, unexpected variable "$session"
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Fpanel/Category')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Fpanel/Category')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 11:15:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:15:54 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(74): App\Models\CategoryModel->getCategory('1')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('1')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(105): App\Controllers\Fpanel\Category->menuWrite()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 02:17:46 --> syntax error, unexpected variable "$session"
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Fpanel/Category')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Fpanel/Category')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 11:17:51 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:17:51 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(74): App\Models\CategoryModel->getCategory('1')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('1')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(105): App\Controllers\Fpanel\Category->menuWrite()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-11-21 11:18:09 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:18:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(74): App\Models\CategoryModel->getCategory('1')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('1')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(105): App\Controllers\Fpanel\Category->menuWrite()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 11:18:43 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('2')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('1')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(105): App\Controllers\Fpanel\Category->menuWrite()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-21 11:19:05 --> Attempt to read property "MenuID" on null
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('2')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(86): App\Controllers\Fpanel\Category->menuWrite('1')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(105): App\Controllers\Fpanel\Category->menuWrite()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-21 11:20:06 --> Attempt to read property "MenuID" on null
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(85): App\Controllers\Fpanel\Category->menuWrite('2')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(85): App\Controllers\Fpanel\Category->menuWrite('1')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(104): App\Controllers\Fpanel\Category->menuWrite()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-21 11:21:24 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(90): App\Controllers\Fpanel\Category->menuWrite('2')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(90): App\Controllers\Fpanel\Category->menuWrite('1')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(109): App\Controllers\Fpanel\Category->menuWrite()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-21 11:21:33 --> Undefined array key "categoryRumuz"
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(90): App\Controllers\Fpanel\Category->menuWrite('2')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(90): App\Controllers\Fpanel\Category->menuWrite('1')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(109): App\Controllers\Fpanel\Category->menuWrite()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-21 11:22:57 --> Undefined array key "categoryId"
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Helpers\category_helper.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\category.php(76): menuWrite(Array)
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(108): view('Fpanel/category', Array)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-21 11:23:21 --> Undefined array key "categoryId"
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Helpers\category_helper.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\category.php(76): menuWrite(Array)
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(109): view('Fpanel/category', Array)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-21 11:26:12 --> Unknown column 'name' in 'field list'
+ERROR - 2022-11-21 11:26:27 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 11:26:27 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(58): App\Models\ProductModel->getProduct('0')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 04:18:37 --> Class "App\Controllers\LanguageModel" not found
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-21 13:52:59 --> Undefined variable $clickEvent
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Helpers\category_helper.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\category.php(76): menuWrite(Array)
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(110): view('Fpanel/category', Array)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index('Technical-Error')
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-21 14:08:24 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 14:08:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(58): App\Models\ProductModel->getProduct('0')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 14:08:26 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\productAdd.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productA...', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(63): view('Fpanel/productA...', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 14:29:17 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\productAdd.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productA...', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(63): view('Fpanel/productA...', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 14:29:56 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\productAdd.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productA...', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(63): view('Fpanel/productA...', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 14:33:14 --> Call to undefined function App\Controllers\Fpanel\detectedLanguage()
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-21 15:03:37 --> Can't drop database 'menudetailsaz'; database doesn't exist
+ERROR - 2022-11-21 15:04:32 --> Can't drop database 'menudetailsaz'; database doesn't exist
+ERROR - 2022-11-21 15:10:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:10:54 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(58): App\Models\ProductModel->getProduct('0')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 15:21:15 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add_result()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 15:21:34 --> Stichoza\GoogleTranslate\GoogleTranslate::setTarget(): Argument #1 ($target) must be of type string, stdClass given, called in C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Helpers\googleTranslate_helper.php on line 61
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Helpers\googleTranslate_helper.php(61): Stichoza\GoogleTranslate\GoogleTranslate->setTarget(Object(stdClass))
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(84): translateToAll('aaaaaa', Object(stdClass))
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add_result()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-11-21 15:44:23 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:44:23 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(149): App\Models\ProductModel->getProduct('65')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('65')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:45:08 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:45:08 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(151): App\Models\ProductModel->getProduct('65')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('65')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:46:58 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:46:58 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(151): App\Models\ProductModel->getProduct('65')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('65')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:48:19 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:48:19 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(151): App\Models\ProductModel->getProduct('65')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('65')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:48:21 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:48:21 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(151): App\Models\ProductModel->getProduct('65')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('65')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:48:30 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-11-21 15:48:30 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(151): App\Models\ProductModel->getProduct('344')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('344')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-21 15:49:57 --> Unknown column 'name' in 'field list'
+ERROR - 2022-11-21 15:50:44 --> Unknown column 'name' in 'field list'
+CRITICAL - 2022-11-21 15:51:12 --> Undefined variable $Language
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Product.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update_result('63')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 21:34:16 --> Undefined variable $rumuz
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 298)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update_result('149')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 21:34:43 --> Undefined variable $Language
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->update_result('149')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-21 13:24:11 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('bitkicaylar\xC4\xB1')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-21 13:24:14 --> Attempt to read property "productDetails" on string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(68): view('products', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('bitkicaylar\xC4\xB1')
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

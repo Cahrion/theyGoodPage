@@ -1,0 +1,60 @@
+ERROR - 2022-12-11 07:24:14 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-12-11 07:24:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Models\SettingModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(24): App\Models\SettingModel->updSumUsers()
+#4 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-11 16:24:21 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-12-11 16:24:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Models\Admin\ALogModel.php(76): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Fpanel\Admin.php(24): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(809): App\Controllers\Fpanel\Admin->__construct()
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-11 07:24:25 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-12-11 07:24:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Models\SettingModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(24): App\Models\SettingModel->updSumUsers()
+#4 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-11 16:24:27 --> Error connecting to the database: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+CRITICAL - 2022-12-11 16:24:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+#0 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Models\Admin\ALogModel.php(76): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Fpanel\Admin.php(24): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(809): App\Controllers\Fpanel\Admin->__construct()
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-11 16:24:34 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-12-11 16:24:34 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myProject\myBlog\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\myProject\myBlog\app\Models\Admin\ALogModel.php(76): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Fpanel\Admin.php(24): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(809): App\Controllers\Fpanel\Admin->__construct()
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

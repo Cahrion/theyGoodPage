@@ -1,0 +1,62 @@
+CRITICAL - 2022-09-27 18:43:05 --> Undefined property: stdClass::$requireUser
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Owner.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->add()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 18:47:42 --> Undefined property: stdClass::$RankID
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Owner.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->add()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 19:03:04 --> Undefined property: stdClass::$requireUser
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\leftBar.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\ownerAdd.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/ownerAdd', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Owner.php(106): view('Fpanel/ownerAdd', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->add()
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-27 19:08:58 --> Undefined variable $ranks
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\ownerAdd.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/ownerAdd', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Owner.php(106): view('Fpanel/ownerAdd', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Owner->add()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Owner))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 20:10:30 --> Attempt to read property "uniqueCode" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\waiter.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/waiter', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Waiter.php(72): view('Fpanel/waiter', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Waiter->index()
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Waiter))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 21:32:00 --> Undefined property: stdClass::$requireUser
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Category->__construct()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 21:32:04 --> Undefined property: stdClass::$requireUser
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Category->__construct()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

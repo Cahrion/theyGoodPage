@@ -1,0 +1,35 @@
+CRITICAL - 2023-05-25 04:30:32 --> Undefined array key 1
+#0 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:42:04 --> Undefined array key 1
+#0 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:42:14 --> Undefined array key 1
+#0 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:52:17 --> Undefined array key 1
+#0 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:57:34 --> Undefined array key 1
+#0 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

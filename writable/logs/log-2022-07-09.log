@@ -1,0 +1,129 @@
+CRITICAL - 2022-07-09 04:55:18 --> Undefined property: stdClass::$uniqueName
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->cartComplate()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 05:11:50 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\order.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/order', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(45): view('Fpanel/order', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 05:29:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\FmenuPlus\system\Database\Query.php(318): strtr('SELECT *\nFROM `...', Array)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\app\Models\CartModel.php(64): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(34): App\Models\CartModel->getProductFCart(Object(stdClass))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#8 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#9 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-09 05:30:19 --> Attempt to read property "name" on array
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\order.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/order', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(64): view('Fpanel/order', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 05:33:49 --> Attempt to read property "name" on array
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\order.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/order', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(64): view('Fpanel/order', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 05:36:04 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\order.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/order', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(64): view('Fpanel/order', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 17:29:37 --> Attempt to read property "barcode" on null
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('2')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 19:02:29 --> Attempt to read property "barcode" on null
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('2')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 11:02:59 --> Attempt to read property "CartID" on string
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('2')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 11:03:51 --> Attempt to read property "text" on array
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\orderDetails.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('2')
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 11:15:38 --> Undefined array key "name"
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\orderDetails.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('2')
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 11:15:54 --> Undefined variable $allSumPrice
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\orderDetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('2')
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 11:31:57 --> Undefined array key "CartStatus"
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\Fpanel\orderDetails.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('1')
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

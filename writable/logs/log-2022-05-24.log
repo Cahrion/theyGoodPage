@@ -1,0 +1,84 @@
+CRITICAL - 2022-05-24 14:30:44 --> Undefined property: App\Controllers\Yonetim\Anasayfa::$db
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->guncelle('4')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 14:31:40 --> unlink(Resimler/dor.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(Resimler...', 'C:\\xampp\\htdocs...', 261)
+#1 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(261): unlink('Resimler/dor.pn...')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->sil_sonuc('1')
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-24 14:42:28 --> unlink(img/dor.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/dor....', 'C:\\xampp\\htdocs...', 258)
+#1 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(258): unlink('img/dor.png')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->sil_sonuc('3')
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-24 14:51:01 --> Undefined property: CodeIgniter\View\View::$Kullanici_model
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\anasayfaEkle.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/a...', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(60): view('YonetimPaneli/a...', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 15:02:06 --> Undefined array key "Resim"
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 15:02:36 --> Undefined array key "Resim"
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 15:02:43 --> Undefined array key "Resim"
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 15:02:44 --> Undefined array key "Resim"
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 15:02:52 --> Undefined property: App\Controllers\Yonetim\Anasayfa::$load
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 23:56:14 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\weProject\weSites\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\weProject\weSites\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:56:38 --> Call to a member function move() on array
+#0 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->ekle_sonuc()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

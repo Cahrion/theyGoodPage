@@ -1,0 +1,12 @@
+ERROR - 2022-07-18 12:33:35 --> Error connecting to the database: No route to host
+CRITICAL - 2022-07-18 12:33:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No route to host
+#0 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/app/Models/IslemModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/app/Controllers/Home.php(12): App\Models\IslemModel->updSumUsers()
+#4 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

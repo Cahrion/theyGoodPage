@@ -1,0 +1,123 @@
+CRITICAL - 2022-11-16 11:41:36 --> Undefined property: App\Controllers\Fpanel\Admin::$data
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\Admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Admin->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Admin))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-16 11:41:56 --> Undefined property: App\Controllers\Fpanel\Admin::$data
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\Admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Admin->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Admin))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-16 12:11:58 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\Fpanel\setting.php(11): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/setting', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\Setting.php(61): view('Fpanel/setting', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Setting->index('100')
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Setting))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-16 19:22:59 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(49): SecurityMaster(Array, Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:23:22 --> Undefined array key "extraPrice"
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(49): SecurityMaster(Array, Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:23:44 --> Undefined array key "extraPrice"
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(49): SecurityMaster(Array, Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:25:49 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-16 19:26:52 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(49): SecurityMaster(Array, Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:27:19 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-16 19:29:28 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-16 10:29:50 --> Undefined variable $myListKey
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(17): helper(Array)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Fpanel/extraPro...')
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Fpanel/extraPro...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 10:30:02 --> Undefined variable $incomingAmerika
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(17): helper(Array)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Fpanel/extraPro...')
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Fpanel/extraPro...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 10:30:09 --> Undefined variable $incomingExtraPrice
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\minRequire_helper.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(17): helper(Array)
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Fpanel/extraPro...')
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Fpanel/extraPro...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 19:38:18 --> Undefined variable $printers
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\Fpanel\productUpdate.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productU...', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Fpanel\Product.php(169): view('Fpanel/productU...', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('278')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

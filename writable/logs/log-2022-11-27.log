@@ -1,0 +1,80 @@
+CRITICAL - 2022-11-27 03:12:10 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:12:20 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(54): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:25:28 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\SoftPHP.php(127): App\Models\ProductModel->getProductsFM('134')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-27 03:25:28 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:25:39 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:25:56 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(54): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:26:00 --> Undefined property: stdClass::$productDetails
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(54): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 03:26:14 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\OurPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

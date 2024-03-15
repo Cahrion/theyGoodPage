@@ -1,0 +1,414 @@
+CRITICAL - 2022-11-17 11:38:16 --> array_walk(): Argument #2 ($callback) must be a valid callback, function "googleTranslate" not found or invalid function name
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(49): array_walk(Array, 'googleTranslate')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 11:39:38 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 [internal function]: translateFactory(Object(stdClass), 0)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(50): array_walk(Array, 'translateFactor...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-17 11:40:24 --> Stichoza\GoogleTranslate\GoogleTranslate::translate(): Argument #1 ($string) must be of type string, stdClass given, called in C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\googleTranslate_helper.php on line 13
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\googleTranslate_helper.php(13): Stichoza\GoogleTranslate\GoogleTranslate->translate(Object(stdClass))
+#1 [internal function]: translateFactory(Object(stdClass), 0)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(50): array_walk(Array, 'translateFactor...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:40:28 --> Stichoza\GoogleTranslate\GoogleTranslate::translate(): Argument #1 ($string) must be of type string, stdClass given, called in C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\googleTranslate_helper.php on line 13
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\googleTranslate_helper.php(13): Stichoza\GoogleTranslate\GoogleTranslate->translate(Object(stdClass))
+#1 [internal function]: translateFactory(Object(stdClass), 0)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(50): array_walk(Array, 'translateFactor...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:46:05 --> Object of class stdClass could not be converted to string
+#0 [internal function]: translateFactory(Object(stdClass), 0)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Models\ProductModel.php(32): array_walk(Array, 'translateFactor...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(118): App\Models\ProductModel->getProductsFM('134')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:46:05 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 11:46:22 --> Object of class stdClass could not be converted to string
+#0 [internal function]: translateFactory(Object(stdClass), 0)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Models\ProductModel.php(32): array_walk(Array, 'translateFactor...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(118): App\Models\ProductModel->getProductsFM('134')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:46:22 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 11:46:50 --> Object of class stdClass could not be converted to string
+#0 [internal function]: translateFactory(Object(stdClass), 0)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Models\ProductModel.php(32): array_walk(Array, 'translateFactor...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(118): App\Models\ProductModel->getProductsFM('134')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:46:50 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 11:47:23 --> Object of class stdClass could not be converted to string
+#0 [internal function]: translateFactory(Object(stdClass), 0)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Models\ProductModel.php(32): array_walk(Array, 'translateFactor...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(118): App\Models\ProductModel->getProductsFM('134')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-17 11:51:24 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 11:51:54 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 12:15:45 --> Undefined array key "tr"
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Helpers\googleTranslate_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#9 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 12:18:20 --> Call to a member function setSource() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 12:18:29 --> Call to a member function setTarget() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 12:18:48 --> Call to a member function translate() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 12:38:59 --> Call to a member function setTarget() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 13:40:58 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php on line 131 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(131): translateFactory('\xC3\x87ay')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 13:40:58 --> Call to undefined function translateFactory()
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(16): include()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(43): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 13:41:15 --> Call to a member function translate() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(53): translateFactory(NULL, '\xC3\x87ay')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 13:41:46 --> Call to a member function translate() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(53): translateFactory(NULL, '\xC3\x87ay')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 13:43:09 --> Call to a member function translate() on null
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(53): translateFactory(NULL, '\xC3\x87ay')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 13:46:33 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php on line 7 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): translateFactory('Men\xC3\xBC')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php(13): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(62): view('products', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 13:47:29 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php on line 63 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php(63): translateFactory('Geri Git')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(62): view('products', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 13:48:06 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\footer.php on line 26 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\footer.php(26): translateFactory('Anka men\xC3\xBC ile ...')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php(69): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(62): view('products', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 13:49:40 --> Object of class Stichoza\GoogleTranslate\GoogleTranslate could not be converted to string
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php(13): include()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(62): view('products', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 13:52:39 --> Undefined variable $tr
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\includes\topBar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\products.php(13): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(62): view('products', Array)
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 13:53:14 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php on line 23 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(23): translateFactory('\xC3\x9Cr\xC3\xBCn Ara')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 13:53:56 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php on line 23 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(23): translateFactory('\xC3\x9Cr\xC3\xBCn Ara')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 13:54:07 --> Too few arguments to function translateFactory(), 1 passed in C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php on line 23 and exactly 2 expected
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Views\ourPackages.php(23): translateFactory('\xC3\x9Cr\xC3\xBCn Ara')
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(51): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-17 14:57:17 --> Class "Config\Database" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(27): CodeIgniter\Model->__construct()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(809): App\Controllers\OurPackages->__construct()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:57:52 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(106): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:57:52 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(50): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:58:41 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(106): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:58:41 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(42): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:59:03 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(106): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:59:03 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(42): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:59:05 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\SoftPHP.php(106): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:59:05 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(42): translateActive()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-17 14:59:52 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(12): helper(Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 15:00:55 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(12): helper(Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 15:00:58 --> Class "Stichoza\GoogleTranslate\GoogleTranslate" not found
+#0 C:\xampp\htdocs\weProject\1_Cmenu\system\Common.php(633): include_once()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\Home.php(12): helper(Array)
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\weProject\1_Cmenu\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

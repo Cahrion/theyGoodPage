@@ -1,0 +1,52 @@
+CRITICAL - 2022-05-01 04:15:46 --> Undefined property: stdClass::$quantity
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(52): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 04:28:35 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\weRoom.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('weRoom', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Details.php(16): view('weRoom', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Details->room()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 04:28:38 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\weRoom.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('weRoom', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Details.php(16): view('weRoom', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Details->room()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 04:28:45 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\weRoom.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('weRoom', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Details.php(16): view('weRoom', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Details->room()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 04:51:02 --> Undefined variable $r
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(43): App\Models\IslemModel->getRoomInfo(1651381200)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

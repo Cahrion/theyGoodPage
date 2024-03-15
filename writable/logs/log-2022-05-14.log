@@ -1,0 +1,110 @@
+CRITICAL - 2022-05-14 08:51:45 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(43): App\Models\IslemModel->getRoomInfo(1652504400, 1652504400)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 11:52:19 --> Call to undefined function App\Controllers\GuvenlikFiltresi()
+#0 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->complate()
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 12:01:49 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(43): App\Models\IslemModel->getRoomInfo(1652504400, 1652504400)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 12:02:50 --> Undefined property: CodeIgniter\Database\Query::$id
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(53): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:03:05 --> Undefined property: CodeIgniter\Database\Query::$id
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(53): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:03:21 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(53): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:03:23 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(53): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:03:24 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationMain.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(53): view('reservationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:23:42 --> Undefined variable $incomingMonth
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationComplate.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationComp...', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(122): view('reservationComp...', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->complate()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:25:17 --> Attempt to read property "photoOne" on array
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationComplate.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationComp...', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(122): view('reservationComp...', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->complate()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 12:26:34 --> Attempt to read property "photoOne" on array
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\reservationComplate.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationComp...', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(122): view('reservationComp...', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->complate()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

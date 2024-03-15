@@ -1,0 +1,116 @@
+ERROR - 2022-05-29 08:47:32 --> Unknown column 'Resim' in 'field list'
+CRITICAL - 2022-05-29 12:24:56 --> Call to undefined function App\Controllers\GuvenlikFiltresi()
+#0 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:25:32 --> Call to undefined function App\Controllers\GuvenlikFiltresi()
+#0 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:25:36 --> Call to undefined function App\Controllers\GuvenlikFiltresi()
+#0 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-29 12:28:56 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:28:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('mil')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:29:21 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:29:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('a')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:29:45 --> Undefined variable $product
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\ourPackages.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(52): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:30:18 --> Attempt to read property "urunLink" on array
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\ourPackages.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(53): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-29 12:33:50 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:33:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('a')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:36:28 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:36:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('a')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:37:18 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:37:18 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\ourPackages.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(53): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-29 12:37:35 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:37:35 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\ourPackages.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(53): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-29 12:37:46 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:37:46 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('a')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:38:33 --> Unknown column 'name' in 'where clause'
+ERROR - 2022-05-29 12:40:11 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-05-29 12:40:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\OurPackages.php(49): App\Models\IslemModel->getProductKey('a')
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\OurPackages->pre()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:41:07 --> Unknown column 'name' in 'where clause'
+ERROR - 2022-05-29 12:43:29 --> Unknown column 'name' in 'where clause'

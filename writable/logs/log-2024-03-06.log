@@ -1,0 +1,117 @@
+CRITICAL - 2024-03-06 23:00:04 --> Class "App\Models\PeopleMixSupplyModel" not found
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-06 23:06:07 --> Undefined variable $myNewData
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(41): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:29:33 --> Attempt to read property "People" on array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:30:01 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:30:15 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:31:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowResult()
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(33): App\Models\PeopleModel->getDataByID('1')
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-06 23:31:36 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:31:49 --> Undefined variable $myExchange
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-06 23:46:25 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(111): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(40): App\Controllers\Home->getCompanyDetailsLastPrivate(NULL)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-06 23:47:06 --> Too few arguments to function App\Controllers\Home::getCompanyDetailsLastPrivate(), 0 passed in C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php on line 40 and exactly 1 expected
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(40): App\Controllers\Home->getCompanyDetailsLastPrivate()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-06 23:47:11 --> file_get_contents(https://query1.finance.yahoo.com/v8/finance/chart/MOGAN.IS?range=10d&amp;interval=1d&amp;includePrePost=false): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(111): file_get_contents('https://query1....')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(40): App\Controllers\Home->getCompanyDetailsLastPrivate()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-06 23:50:02 --> Undefined array key "myCloses"
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Views\home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(52): view('home', Array)
+#5 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

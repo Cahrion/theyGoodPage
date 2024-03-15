@@ -1,0 +1,56 @@
+CRITICAL - 2022-07-12 03:13:54 --> Attempt to read property "quantity" on null
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Models\CartModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\SoftPHP.php(106): App\Models\CartModel->takeOutProductFCart('20', '191')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->takeOutProduct()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 03:13:55 --> Attempt to read property "quantity" on null
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Models\CartModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\SoftPHP.php(106): App\Models\CartModel->takeOutProductFCart('20', '191')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->takeOutProduct()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 03:13:56 --> Attempt to read property "quantity" on null
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Models\CartModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\SoftPHP.php(106): App\Models\CartModel->takeOutProductFCart('20', '191')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\SoftPHP->takeOutProduct()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-12 06:19:30 --> Table 'fmenuplus.packageorder' doesn't exist
+ERROR - 2022-07-12 06:20:20 --> Table 'fmenuplus.packageorder' doesn't exist
+CRITICAL - 2022-07-12 06:24:23 --> Undefined property: stdClass::$Note
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\orderDetails.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('7')
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 06:24:27 --> Undefined array key "OrderStatus"
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\orderDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/orderDet...', Array, true)
+#4 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Order.php(135): view('Fpanel/orderDet...', Array)
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Order->details('7')
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-12 13:06:10 --> Table 'epiz_31906467_fmenu.cartOrder' doesn't exist
+CRITICAL - 2022-07-12 13:06:10 --> Call to a member function getResult() on bool
+#0 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/app/Controllers/Fpanel/Order.php(26): App\Models\OrderModel->getOrdersNew()
+#1 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(832): App\Controllers\Fpanel\Order->index()
+#2 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Order))
+#3 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol12_7/epizy.com/epiz_31906467/fmenu.fbeslife.com/htdocs/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

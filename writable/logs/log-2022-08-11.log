@@ -1,0 +1,77 @@
+ERROR - 2022-08-11 09:52:12 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:52:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(137): App\Models\ExtraProductModel->getProductAndExtraProduct('170')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 09:53:00 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:54:27 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:54:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('171')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:55:27 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:55:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('172')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:56:19 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:56:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('172')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:56:26 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:56:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('172')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:58:15 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:58:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('172')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 09:58:29 --> Unknown column 'CartID' in 'where clause'
+CRITICAL - 2022-08-11 09:58:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): App\Models\ExtraProductModel->getProductAndExtraProduct('172')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 10:00:20 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 10:00:22 --> Array to string conversion
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Cart.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,107 @@
+CRITICAL - 2023-06-01 19:59:40 --> Undefined variable $PATH
+#0 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\includes\leftBar.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\pano.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myDance\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\myProject\myDance\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/pano', Array, true)
+#5 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(83): view('Fpanel/pano', Array)
+#6 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#7 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#8 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-01 20:00:57 --> Table 'my_dance.infoenter' doesn't exist
+ERROR - 2023-06-01 20:00:57 --> Table 'my_dance.infoenter' doesn't exist
+CRITICAL - 2023-06-01 20:00:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(66): CodeIgniter\Model->__call('sumLanguage', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-06-01 20:24:46 --> Table 'my_dance.infoenter' doesn't exist
+ERROR - 2023-06-01 20:24:46 --> Table 'my_dance.infoenter' doesn't exist
+CRITICAL - 2023-06-01 20:24:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(66): CodeIgniter\Model->__call('sumLanguage', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-06-01 20:35:12 --> Table 'my_dance.infoenter' doesn't exist
+ERROR - 2023-06-01 20:35:12 --> Table 'my_dance.infoenter' doesn't exist
+CRITICAL - 2023-06-01 20:35:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(66): CodeIgniter\Model->__call('sumLanguage', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 20:36:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(66): CodeIgniter\Model->__call('sumLanguage', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 20:36:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Panel.php(66): CodeIgniter\Model->__call('sumLanguage', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 21:04:45 --> Undefined variable $PATH
+#0 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\includes\leftBar.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\productUpdate.php(16): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myDance\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\myProject\myDance\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productU...', Array, true)
+#5 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Product.php(186): view('Fpanel/productU...', Array)
+#6 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->update('380')
+#7 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#8 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-01 21:50:03 --> Undefined variable $PATH
+#0 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\includes\leftBar.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\movement.php(17): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myDance\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\myProject\myDance\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/movement', Array, true)
+#5 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Movement.php(66): view('Fpanel/movement', Array)
+#6 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Movement->index()
+#7 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Movement))
+#8 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-01 21:50:28 --> Invalid file: Fpanel/movementAdd.php
+#0 C:\xampp\htdocs\myProject\myDance\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Fpanel/movement...')
+#1 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/movement...', Array, true)
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Movement.php(84): view('Fpanel/movement...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Movement->add()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Movement))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 22:34:56 --> Undefined variable $movements
+#0 C:\xampp\htdocs\myProject\myDance\app\Views\Fpanel\productAdd.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\myProject\myDance\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myDance\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/productA...', Array, true)
+#4 C:\xampp\htdocs\myProject\myDance\app\Controllers\Fpanel\Product.php(72): view('Fpanel/productA...', Array)
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add()
+#6 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#7 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,113 @@
+ERROR - 2022-11-05 15:43:22 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 15:43:22 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+CRITICAL - 2022-11-05 15:43:38 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\deskDetails.php(10): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/deskDeta...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Desk.php(115): view('Fpanel/deskDeta...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->details('296')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-05 16:03:51 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 16:03:51 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+ERROR - 2022-11-05 16:20:14 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 16:20:14 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+ERROR - 2022-11-05 16:27:35 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 16:27:35 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+ERROR - 2022-11-05 16:41:47 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 16:41:47 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+CRITICAL - 2022-11-05 16:57:06 --> Undefined array key 276
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\ExtraProduct.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add('0', '276')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-05 17:07:32 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 17:07:32 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+ERROR - 2022-11-05 17:08:39 --> Table 'fbeslife_demofmenu.mainpage' doesn't exist
+ERROR - 2022-11-05 17:08:39 --> Table 'fbeslife_demofmenu.contact' doesn't exist
+CRITICAL - 2022-11-05 18:10:14 --> Call to undefined function menuWrite()
+#0 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/category', Array, true)
+#3 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(120): view('Fpanel/category', Array)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->index()
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-05 10:25:37 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\log.php(10): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/log', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Log.php(127): view('Fpanel/log', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Log->loger('update', 'Fbeslife')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Log))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 11:10:16 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\log.php(10): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/log', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Log.php(127): view('Fpanel/log', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Log->loger('update', 'Fbeslife')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Log))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 11:10:45 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\log.php(10): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/log', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Log.php(127): view('Fpanel/log', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Log->loger('update', 'Fbeslife')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Log))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 19:12:23 --> Undefined variable $actionName
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\includes\pluginAlert.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\extraProductAdd.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/extraPro...', Array, true)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\ExtraProduct.php(71): view('Fpanel/extraPro...', Array)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add('32')
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#8 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 20:03:41 --> Attempt to read property "MenuID" on null
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\Fpanel\extraProductAdd.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/extraPro...', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\ExtraProduct.php(79): view('Fpanel/extraPro...', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add('200')
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-05 13:44:24 --> Undefined property: stdClass::$image
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Views\products.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\OurPackages.php(74): view('products', Array)
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

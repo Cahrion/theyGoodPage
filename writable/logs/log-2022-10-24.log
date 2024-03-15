@@ -1,0 +1,43 @@
+CRITICAL - 2022-10-24 00:23:21 --> array_walk(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(368): array_walk(NULL, 'SecurityFilter')
+#1 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#2 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-24 00:23:49 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Helpers\fonksiyonlar_helper.php(55): trim(Array)
+#1 [internal function]: SecurityFilter(Array, 0)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(368): array_walk(Array, 'SecurityFilter')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-24 00:24:05 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Helpers\fonksiyonlar_helper.php(55): trim(Array)
+#1 [internal function]: SecurityFilter(Array, 0)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(368): array_walk(Array, 'SecurityFilter')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-24 00:24:18 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Helpers\fonksiyonlar_helper.php(55): trim(Array)
+#1 [internal function]: SecurityFilter(Array, 0)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(369): array_walk(Array, 'SecurityFilter')
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-24 00:26:36 --> array_walk(): Argument #1 ($array) must be of type array, int given
+#0 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(370): array_walk(0, 'SecurityFilter')
+#1 [internal function]: App\Controllers\Fpanel\Category->App\Controllers\Fpanel\{closure}(Array, 0)
+#2 C:\xampp\htdocs\weProject\DemoFmenu\app\Controllers\Fpanel\Category.php(371): array_walk(Array, Object(Closure))
+#3 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#4 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#5 C:\xampp\htdocs\weProject\DemoFmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\DemoFmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

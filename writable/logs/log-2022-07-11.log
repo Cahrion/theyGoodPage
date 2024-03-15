@@ -1,0 +1,57 @@
+CRITICAL - 2022-07-11 06:21:19 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(318): strtr('SELECT *\nFROM `...', Array)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Models\IslemModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\weProject\Fmenu\app\Models\IslemModel.php(37): App\Models\IslemModel->getProductsFM(Object(stdClass))
+#7 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\OurPackages.php(29): App\Models\IslemModel->getOurAll()
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#9 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#10 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-11 06:31:08 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(318): strtr('SELECT *\nFROM `...', Array)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\weProject\Fmenu\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Models\IslemModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\weProject\Fmenu\app\Models\IslemModel.php(37): App\Models\IslemModel->getProductsFM(Object(stdClass))
+#7 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\OurPackages.php(29): App\Models\IslemModel->getOurAll()
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#9 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#10 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-11 06:37:22 --> Undefined property: stdClass::$title
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\ourPackages.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\OurPackages.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-11 09:14:47 --> Attempt to read property "uniqueName" on null
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\ourPackages.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\OurPackages.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-11 09:20:09 --> Undefined variable $activeDesk
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\OurPackages.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(809): App\Controllers\OurPackages->__construct()
+#2 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,88 @@
+ERROR - 2022-07-31 15:45:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-07-31 15:45:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\weProject\Fmenu\app\Models\Admin\ALogModel.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Panel.php(21): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Panel->__construct()
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-31 15:46:27 --> Error connecting to the database: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+CRITICAL - 2022-07-31 15:46:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+#0 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\weProject\Fmenu\app\Models\Admin\ALogModel.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Panel.php(18): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Panel->__construct()
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-31 15:48:10 --> Error connecting to the database: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+CRITICAL - 2022-07-31 15:48:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+#0 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\Fmenu\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 C:\xampp\htdocs\weProject\Fmenu\app\Models\Admin\ALogModel.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Panel.php(21): App\Models\Admin\ALogModel->setLog()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(809): App\Controllers\Fpanel\Panel->__construct()
+#5 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-31 15:50:48 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\setting.php(6): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/setting', Array, true)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Setting.php(52): view('Fpanel/setting', Array)
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Setting->index()
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Setting))
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-31 15:51:04 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\contact.php(6): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/contact', Array, true)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Contact.php(55): view('Fpanel/contact', Array)
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Contact->index()
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Contact))
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-31 15:59:10 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\contact.php(6): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/contact', Array, true)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Contact.php(55): view('Fpanel/contact', Array)
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Contact->index()
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Contact))
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-31 15:59:24 --> Undefined variable $owner
+#0 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\includes\topBar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\Fmenu\app\Views\Fpanel\contact.php(6): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\Fmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\Fmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/contact', Array, true)
+#5 C:\xampp\htdocs\weProject\Fmenu\app\Controllers\Fpanel\Contact.php(55): view('Fpanel/contact', Array)
+#6 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Contact->index()
+#7 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Contact))
+#8 C:\xampp\htdocs\weProject\Fmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\Fmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

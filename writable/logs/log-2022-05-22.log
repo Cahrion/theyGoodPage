@@ -1,0 +1,96 @@
+ERROR - 2022-05-22 00:56:42 --> Table 'wesites.weplus' doesn't exist
+CRITICAL - 2022-05-22 00:56:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Home.php(13): App\Models\IslemModel->getWePlus()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-22 00:57:37 --> Table 'wesites.weplus' doesn't exist
+CRITICAL - 2022-05-22 00:57:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Home.php(13): App\Models\IslemModel->getWePlus()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 01:34:01 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index('tostlarBazlamal...', '1')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 01:37:35 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index('tostlarBazlamal...', '1')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 17:33:10 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 17:33:32 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 17:33:33 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 17:33:44 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 17:34:15 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 17:34:20 --> Attempt to read property "urunFoto" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(35): view('products', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->product('kasarliTost')
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

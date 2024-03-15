@@ -1,0 +1,56 @@
+CRITICAL - 2022-05-27 02:57:04 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('1')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 02:57:19 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('2')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 02:57:24 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('3')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 02:57:28 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('4')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 06:03:43 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 204, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(204): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->guncelle_sonuc()
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 06:04:14 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('23')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 14:21:03 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', '/home/dorbistr/...', 259, Array)
+#1 /home/dorbistr/domains/dorbistroburdur.com/public_html/app/Controllers/Yonetim/Product.php(259): unlink('img/')
+#2 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(832): App\Controllers\Yonetim\Product->sil_sonuc('27')
+#3 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Product))
+#4 /home/dorbistr/domains/dorbistroburdur.com/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dorbistr/domains/dorbistroburdur.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

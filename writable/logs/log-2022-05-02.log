@@ -1,0 +1,44 @@
+CRITICAL - 2022-05-02 13:47:52 --> Undefined array key 1651467600
+#0 C:\xampp\htdocs\weProject\weHotel\app\Helpers\fonksiyonlar_helper.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(52): dateFoundDayInWeekArray(1651467600)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-02 14:07:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-05-02 14:07:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(69): App\Models\IslemModel->getRoomInfo(1654059600)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-02 14:07:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-05-02 14:07:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(69): App\Models\IslemModel->getRoomInfo(1656651600)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-02 14:07:15 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-05-02 14:07:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(69): App\Models\IslemModel->getRoomInfo(1659330000)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->dayUpdate()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

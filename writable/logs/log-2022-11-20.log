@@ -1,0 +1,73 @@
+CRITICAL - 2022-11-20 15:48:28 --> Call to undefined function App\Models\Admin\translateOwner()
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Models\Admin\ADatabaseCreatorModel.php(39): App\Models\Admin\ADatabaseCreatorModel->databaseEnject('en')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Language.php(79): App\Models\Admin\ADatabaseCreatorModel->createDatabase('en')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Language->add_result()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Language))
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-11-20 15:52:36 --> Table 'productdetailsen' already exists
+CRITICAL - 2022-11-20 15:52:36 --> Call to undefined function App\Controllers\Fpanel\translateOwner()
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Language->add_result()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Language))
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-20 15:53:51 --> Table 'productdetailsen' already exists
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist
+ERROR - 2022-11-20 16:00:32 --> Table 'cmenuupped.productdetails' doesn't exist

@@ -1,0 +1,234 @@
+ERROR - 2024-03-14 14:51:24 --> Table 'they_goodpage.peoplemixstock' doesn't exist
+CRITICAL - 2024-03-14 14:51:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): App\Models\PeopleMixStockModel->getDataByOnline()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-14 16:22:42 --> Undefined variable $myContexts
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(45): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(18): view('home')
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 16:29:41 --> Undefined variable $leftMainContexts
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(49): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(41): view('home')
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 16:30:17 --> Undefined variable $leftMainContexts
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(49): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(45): view('home')
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 17:58:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(50): include()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(29): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 17:59:35 --> Undefined array key "name"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(30): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 17:59:48 --> Undefined array key "name"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(30): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 17:59:49 --> Undefined array key "name"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(30): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 18:05:23 --> Undefined array key "tableId"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(31): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 18:05:39 --> Undefined variable $mainArea
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(31): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 18:05:58 --> Undefined array key "tableName"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\includes\leftBar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): view('home', Array)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-14 18:08:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 18:09:21 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 18:09:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 18:10:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(36): include()
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Home.php(32): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 18:17:18 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('supDonerSermaye...')
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-14 18:51:24 --> syntax error, unexpected identifier "seeAllDetails"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-14 18:51:31 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-14 18:52:16 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Sayfalar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('supPersonelSayi...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-14 18:52:46 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Sayfalar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('supPersonelSayi...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-14 18:54:55 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Sayfalar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('KirklareliHakki...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-14 18:55:17 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Sayfalar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('KirklareliHakki...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-14 18:55:26 --> Attempt to read property "tableName" on array
+#0 C:\xampp\htdocs\theyProject\theyGoodPage\app\Views\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\theyProject\theyGoodPage\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\theyProject\theyGoodPage\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\theyProject\theyGoodPage\app\Controllers\Sayfalar.php(46): view('home', Array)
+#5 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(832): App\Controllers\Sayfalar->index('KirklareliHakki...')
+#6 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sayfalar))
+#7 C:\xampp\htdocs\theyProject\theyGoodPage\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\theyProject\theyGoodPage\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

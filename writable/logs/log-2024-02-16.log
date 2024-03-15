@@ -1,0 +1,1042 @@
+CRITICAL - 2024-02-16 02:11:59 --> Class "COM" not found
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->myVeri()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-02-16 02:52:46 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(143): App\Controllers\Home->getCompanyDetailsAll(Object(stdClass))
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->myVeri()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-16 02:53:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(143): App\Controllers\Home->getCompanyDetailsAll(Object(stdClass))
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->myVeri()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-16 02:53:11 --> Array to string conversion
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\app\Controllers\Home.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->myVeri()
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-16 02:53:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(832): App\Controllers\Home->myVeri()
+#1 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\mePlus\thisMyExchange\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mePlus\thisMyExchange\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-02-16 03:12:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1394091000, 1 = 'createDate'
+WHERE `id` = '2'' at line 1
+ERROR - 2024-02-16 03:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1350628200, 1 = 'createDate'
+WHERE `id` = '3'' at line 1
+ERROR - 2024-02-16 03:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1115101800, 1 = 'createDate'
+WHERE `id` = '4'' at line 1
+ERROR - 2024-02-16 03:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1519194600, 1 = 'createDate'
+WHERE `id` = '5'' at line 1
+ERROR - 2024-02-16 03:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '6'' at line 1
+ERROR - 2024-02-16 03:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '7'' at line 1
+ERROR - 2024-02-16 03:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1345617000, 1 = 'createDate'
+WHERE `id` = '8'' at line 1
+ERROR - 2024-02-16 03:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1591252200, 1 = 'createDate'
+WHERE `id` = '9'' at line 1
+ERROR - 2024-02-16 03:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '10'' at line 1
+ERROR - 2024-02-16 03:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1637562600, 1 = 'createDate'
+WHERE `id` = '11'' at line 1
+ERROR - 2024-02-16 03:12:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '12'' at line 1
+ERROR - 2024-02-16 03:12:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '13'' at line 1
+ERROR - 2024-02-16 03:12:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1104910200, 1 = 'createDate'
+WHERE `id` = '14'' at line 1
+ERROR - 2024-02-16 03:12:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1347949800, 1 = 'createDate'
+WHERE `id` = '15'' at line 1
+ERROR - 2024-02-16 03:12:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1369636200, 1 = 'createDate'
+WHERE `id` = '16'' at line 1
+ERROR - 2024-02-16 03:12:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1305009000, 1 = 'createDate'
+WHERE `id` = '17'' at line 1
+ERROR - 2024-02-16 03:12:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1630650600, 1 = 'createDate'
+WHERE `id` = '18'' at line 1
+ERROR - 2024-02-16 03:12:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '19'' at line 1
+ERROR - 2024-02-16 03:12:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1483943400, 1 = 'createDate'
+WHERE `id` = '20'' at line 1
+ERROR - 2024-02-16 03:12:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '21'' at line 1
+ERROR - 2024-02-16 03:12:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '22'' at line 1
+ERROR - 2024-02-16 03:12:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '23'' at line 1
+ERROR - 2024-02-16 03:12:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '24'' at line 1
+ERROR - 2024-02-16 03:12:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '25'' at line 1
+ERROR - 2024-02-16 03:12:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '26'' at line 1
+ERROR - 2024-02-16 03:12:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1338359400, 1 = 'createDate'
+WHERE `id` = '27'' at line 1
+ERROR - 2024-02-16 03:12:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1014276600, 1 = 'createDate'
+WHERE `id` = '28'' at line 1
+ERROR - 2024-02-16 03:12:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1629441000, 1 = 'createDate'
+WHERE `id` = '29'' at line 1
+ERROR - 2024-02-16 03:12:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 968221800, 1 = 'createDate'
+WHERE `id` = '30'' at line 1
+ERROR - 2024-02-16 03:12:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1580970600, 1 = 'createDate'
+WHERE `id` = '31'' at line 1
+ERROR - 2024-02-16 03:12:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '32'' at line 1
+ERROR - 2024-02-16 03:12:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1344234600, 1 = 'createDate'
+WHERE `id` = '33'' at line 1
+ERROR - 2024-02-16 03:12:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '34'' at line 1
+ERROR - 2024-02-16 03:12:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '35'' at line 1
+ERROR - 2024-02-16 03:12:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1577687400, 1 = 'createDate'
+WHERE `id` = '36'' at line 1
+ERROR - 2024-02-16 03:12:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1308292200, 1 = 'createDate'
+WHERE `id` = '37'' at line 1
+ERROR - 2024-02-16 03:12:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1303367400, 1 = 'createDate'
+WHERE `id` = '38'' at line 1
+ERROR - 2024-02-16 03:12:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1562653800, 1 = 'createDate'
+WHERE `id` = '39'' at line 1
+ERROR - 2024-02-16 03:12:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '40'' at line 1
+ERROR - 2024-02-16 03:12:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1623220200, 1 = 'createDate'
+WHERE `id` = '41'' at line 1
+ERROR - 2024-02-16 03:12:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1086935400, 1 = 'createDate'
+WHERE `id` = '42'' at line 1
+ERROR - 2024-02-16 03:12:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 967703400, 1 = 'createDate'
+WHERE `id` = '43'' at line 1
+ERROR - 2024-02-16 03:12:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1372401000, 1 = 'createDate'
+WHERE `id` = '44'' at line 1
+ERROR - 2024-02-16 03:12:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1648103400, 1 = 'createDate'
+WHERE `id` = '45'' at line 1
+ERROR - 2024-02-16 03:12:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1085553000, 1 = 'createDate'
+WHERE `id` = '46'' at line 1
+ERROR - 2024-02-16 03:12:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '47'' at line 1
+ERROR - 2024-02-16 03:12:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1139556600, 1 = 'createDate'
+WHERE `id` = '48'' at line 1
+ERROR - 2024-02-16 03:12:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '49'' at line 1
+ERROR - 2024-02-16 03:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1626071400, 1 = 'createDate'
+WHERE `id` = '50'' at line 1
+ERROR - 2024-02-16 03:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1645165800, 1 = 'createDate'
+WHERE `id` = '51'' at line 1
+ERROR - 2024-02-16 03:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1603089000, 1 = 'createDate'
+WHERE `id` = '52'' at line 1
+ERROR - 2024-02-16 03:12:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1337063400, 1 = 'createDate'
+WHERE `id` = '53'' at line 1
+ERROR - 2024-02-16 03:12:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1338445800, 1 = 'createDate'
+WHERE `id` = '54'' at line 1
+ERROR - 2024-02-16 03:12:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 960273000, 1 = 'createDate'
+WHERE `id` = '55'' at line 1
+ERROR - 2024-02-16 03:12:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1399357800, 1 = 'createDate'
+WHERE `id` = '56'' at line 1
+ERROR - 2024-02-16 03:12:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '57'' at line 1
+ERROR - 2024-02-16 03:12:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '58'' at line 1
+ERROR - 2024-02-16 03:12:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '59'' at line 1
+ERROR - 2024-02-16 03:12:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1526452200, 1 = 'createDate'
+WHERE `id` = '60'' at line 1
+ERROR - 2024-02-16 03:12:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '61'' at line 1
+ERROR - 2024-02-16 03:12:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1077694200, 1 = 'createDate'
+WHERE `id` = '62'' at line 1
+ERROR - 2024-02-16 03:12:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1278570600, 1 = 'createDate'
+WHERE `id` = '63'' at line 1
+ERROR - 2024-02-16 03:12:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1358235000, 1 = 'createDate'
+WHERE `id` = '64'' at line 1
+ERROR - 2024-02-16 03:12:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1350023400, 1 = 'createDate'
+WHERE `id` = '65'' at line 1
+ERROR - 2024-02-16 03:12:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1629354600, 1 = 'createDate'
+WHERE `id` = '66'' at line 1
+ERROR - 2024-02-16 03:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '67'' at line 1
+ERROR - 2024-02-16 03:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1367908200, 1 = 'createDate'
+WHERE `id` = '68'' at line 1
+ERROR - 2024-02-16 03:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '69'' at line 1
+ERROR - 2024-02-16 03:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1387179000, 1 = 'createDate'
+WHERE `id` = '70'' at line 1
+ERROR - 2024-02-16 03:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1516170600, 1 = 'createDate'
+WHERE `id` = '71'' at line 1
+ERROR - 2024-02-16 03:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '72'' at line 1
+ERROR - 2024-02-16 03:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1341901800, 1 = 'createDate'
+WHERE `id` = '73'' at line 1
+ERROR - 2024-02-16 03:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1404714600, 1 = 'createDate'
+WHERE `id` = '74'' at line 1
+ERROR - 2024-02-16 03:12:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '75'' at line 1
+ERROR - 2024-02-16 03:12:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '76'' at line 1
+ERROR - 2024-02-16 03:12:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1348036200, 1 = 'createDate'
+WHERE `id` = '77'' at line 1
+ERROR - 2024-02-16 03:12:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1402900200, 1 = 'createDate'
+WHERE `id` = '78'' at line 1
+ERROR - 2024-02-16 03:12:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1149661800, 1 = 'createDate'
+WHERE `id` = '79'' at line 1
+ERROR - 2024-02-16 03:12:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '80'' at line 1
+ERROR - 2024-02-16 03:12:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1646289000, 1 = 'createDate'
+WHERE `id` = '81'' at line 1
+ERROR - 2024-02-16 03:12:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1179815400, 1 = 'createDate'
+WHERE `id` = '82'' at line 1
+ERROR - 2024-02-16 03:12:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1518157800, 1 = 'createDate'
+WHERE `id` = '83'' at line 1
+ERROR - 2024-02-16 03:12:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1278916200, 1 = 'createDate'
+WHERE `id` = '84'' at line 1
+ERROR - 2024-02-16 03:12:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1288942200, 1 = 'createDate'
+WHERE `id` = '85'' at line 1
+ERROR - 2024-02-16 03:12:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1314167400, 1 = 'createDate'
+WHERE `id` = '86'' at line 1
+ERROR - 2024-02-16 03:12:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1276669800, 1 = 'createDate'
+WHERE `id` = '87'' at line 1
+ERROR - 2024-02-16 03:12:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1052893800, 1 = 'createDate'
+WHERE `id` = '88'' at line 1
+ERROR - 2024-02-16 03:12:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '89'' at line 1
+ERROR - 2024-02-16 03:12:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '90'' at line 1
+ERROR - 2024-02-16 03:12:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '91'' at line 1
+ERROR - 2024-02-16 03:12:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '92'' at line 1
+ERROR - 2024-02-16 03:12:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1033540200, 1 = 'createDate'
+WHERE `id` = '93'' at line 1
+ERROR - 2024-02-16 03:12:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1357716600, 1 = 'createDate'
+WHERE `id` = '94'' at line 1
+ERROR - 2024-02-16 03:12:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '95'' at line 1
+ERROR - 2024-02-16 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '96'' at line 1
+ERROR - 2024-02-16 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '97'' at line 1
+ERROR - 2024-02-16 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1341383400, 1 = 'createDate'
+WHERE `id` = '98'' at line 1
+ERROR - 2024-02-16 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '99'' at line 1
+ERROR - 2024-02-16 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1497508200, 1 = 'createDate'
+WHERE `id` = '100'' at line 1
+ERROR - 2024-02-16 03:12:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '101'' at line 1
+ERROR - 2024-02-16 03:12:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1657175400, 1 = 'createDate'
+WHERE `id` = '102'' at line 1
+ERROR - 2024-02-16 03:12:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '103'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1394091000, 1 = 'createDate'
+WHERE `id` = '2'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '104'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1350628200, 1 = 'createDate'
+WHERE `id` = '3'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '105'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1287642600, 1 = 'createDate'
+WHERE `id` = '106'' at line 1
+ERROR - 2024-02-16 03:12:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '107'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 966580200, 1 = 'createDate'
+WHERE `id` = '108'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1113805800, 1 = 'createDate'
+WHERE `id` = '109'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1115101800, 1 = 'createDate'
+WHERE `id` = '4'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1314167400, 1 = 'createDate'
+WHERE `id` = '110'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1519194600, 1 = 'createDate'
+WHERE `id` = '5'' at line 1
+ERROR - 2024-02-16 03:12:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1311921000, 1 = 'createDate'
+WHERE `id` = '111'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '6'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1277361000, 1 = 'createDate'
+WHERE `id` = '112'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '7'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '113'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1345617000, 1 = 'createDate'
+WHERE `id` = '8'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1156487400, 1 = 'createDate'
+WHERE `id` = '114'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1591252200, 1 = 'createDate'
+WHERE `id` = '9'' at line 1
+ERROR - 2024-02-16 03:12:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1518503400, 1 = 'createDate'
+WHERE `id` = '115'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '10'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '116'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1384846200, 1 = 'createDate'
+WHERE `id` = '117'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1637562600, 1 = 'createDate'
+WHERE `id` = '11'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '118'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '119'' at line 1
+ERROR - 2024-02-16 03:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '120'' at line 1
+ERROR - 2024-02-16 03:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '121'' at line 1
+ERROR - 2024-02-16 03:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1323675000, 1 = 'createDate'
+WHERE `id` = '122'' at line 1
+ERROR - 2024-02-16 03:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1336631400, 1 = 'createDate'
+WHERE `id` = '123'' at line 1
+ERROR - 2024-02-16 03:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1526625000, 1 = 'createDate'
+WHERE `id` = '124'' at line 1
+ERROR - 2024-02-16 03:12:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '125'' at line 1
+ERROR - 2024-02-16 03:12:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '126'' at line 1
+ERROR - 2024-02-16 03:12:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '127'' at line 1
+ERROR - 2024-02-16 03:12:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1337236200, 1 = 'createDate'
+WHERE `id` = '128'' at line 1
+ERROR - 2024-02-16 03:12:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1424244600, 1 = 'createDate'
+WHERE `id` = '129'' at line 1
+ERROR - 2024-02-16 03:12:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 973755000, 1 = 'createDate'
+WHERE `id` = '130'' at line 1
+ERROR - 2024-02-16 03:12:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '131'' at line 1
+ERROR - 2024-02-16 03:12:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '132'' at line 1
+ERROR - 2024-02-16 03:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1344493800, 1 = 'createDate'
+WHERE `id` = '133'' at line 1
+ERROR - 2024-02-16 03:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '134'' at line 1
+ERROR - 2024-02-16 03:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1565245800, 1 = 'createDate'
+WHERE `id` = '135'' at line 1
+ERROR - 2024-02-16 03:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '136'' at line 1
+ERROR - 2024-02-16 03:12:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1178260200, 1 = 'createDate'
+WHERE `id` = '137'' at line 1
+ERROR - 2024-02-16 03:12:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1621319400, 1 = 'createDate'
+WHERE `id` = '138'' at line 1
+ERROR - 2024-02-16 03:12:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '139'' at line 1
+ERROR - 2024-02-16 03:12:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '140'' at line 1
+ERROR - 2024-02-16 03:12:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1178519400, 1 = 'createDate'
+WHERE `id` = '141'' at line 1
+ERROR - 2024-02-16 03:12:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '142'' at line 1
+ERROR - 2024-02-16 03:12:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '143'' at line 1
+ERROR - 2024-02-16 03:12:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1338445800, 1 = 'createDate'
+WHERE `id` = '144'' at line 1
+ERROR - 2024-02-16 03:12:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '145'' at line 1
+ERROR - 2024-02-16 03:12:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1161325800, 1 = 'createDate'
+WHERE `id` = '146'' at line 1
+ERROR - 2024-02-16 03:12:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '147'' at line 1
+ERROR - 2024-02-16 03:12:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '148'' at line 1
+ERROR - 2024-02-16 03:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1147847400, 1 = 'createDate'
+WHERE `id` = '149'' at line 1
+ERROR - 2024-02-16 03:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1631687400, 1 = 'createDate'
+WHERE `id` = '150'' at line 1
+ERROR - 2024-02-16 03:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1651127400, 1 = 'createDate'
+WHERE `id` = '151'' at line 1
+ERROR - 2024-02-16 03:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1341901800, 1 = 'createDate'
+WHERE `id` = '152'' at line 1
+ERROR - 2024-02-16 03:12:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1122013800, 1 = 'createDate'
+WHERE `id` = '153'' at line 1
+ERROR - 2024-02-16 03:12:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1366957800, 1 = 'createDate'
+WHERE `id` = '154'' at line 1
+ERROR - 2024-02-16 03:12:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '155'' at line 1
+ERROR - 2024-02-16 03:12:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '156'' at line 1
+ERROR - 2024-02-16 03:13:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '157'' at line 1
+ERROR - 2024-02-16 03:13:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 968135400, 1 = 'createDate'
+WHERE `id` = '158'' at line 1
+ERROR - 2024-02-16 03:13:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1385969400, 1 = 'createDate'
+WHERE `id` = '159'' at line 1
+ERROR - 2024-02-16 03:13:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1295940600, 1 = 'createDate'
+WHERE `id` = '160'' at line 1
+ERROR - 2024-02-16 03:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1518071400, 1 = 'createDate'
+WHERE `id` = '161'' at line 1
+ERROR - 2024-02-16 03:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '162'' at line 1
+ERROR - 2024-02-16 03:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '163'' at line 1
+ERROR - 2024-02-16 03:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1336113000, 1 = 'createDate'
+WHERE `id` = '164'' at line 1
+ERROR - 2024-02-16 03:13:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '165'' at line 1
+ERROR - 2024-02-16 03:13:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '166'' at line 1
+ERROR - 2024-02-16 03:13:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1374820200, 1 = 'createDate'
+WHERE `id` = '167'' at line 1
+ERROR - 2024-02-16 03:13:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1401777000, 1 = 'createDate'
+WHERE `id` = '168'' at line 1
+ERROR - 2024-02-16 03:13:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 964420200, 1 = 'createDate'
+WHERE `id` = '169'' at line 1
+ERROR - 2024-02-16 03:13:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '170'' at line 1
+ERROR - 2024-02-16 03:13:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1484807400, 1 = 'createDate'
+WHERE `id` = '171'' at line 1
+ERROR - 2024-02-16 03:13:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1078903800, 1 = 'createDate'
+WHERE `id` = '172'' at line 1
+ERROR - 2024-02-16 03:13:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1415777400, 1 = 'createDate'
+WHERE `id` = '173'' at line 1
+ERROR - 2024-02-16 03:13:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1146033000, 1 = 'createDate'
+WHERE `id` = '174'' at line 1
+ERROR - 2024-02-16 03:13:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1623047400, 1 = 'createDate'
+WHERE `id` = '175'' at line 1
+ERROR - 2024-02-16 03:13:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '176'' at line 1
+ERROR - 2024-02-16 03:13:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 963383400, 1 = 'createDate'
+WHERE `id` = '177'' at line 1
+ERROR - 2024-02-16 03:13:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '178'' at line 1
+ERROR - 2024-02-16 03:13:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1341556200, 1 = 'createDate'
+WHERE `id` = '179'' at line 1
+ERROR - 2024-02-16 03:13:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1087453800, 1 = 'createDate'
+WHERE `id` = '180'' at line 1
+ERROR - 2024-02-16 03:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1526970600, 1 = 'createDate'
+WHERE `id` = '181'' at line 1
+ERROR - 2024-02-16 03:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '182'' at line 1
+ERROR - 2024-02-16 03:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1493879400, 1 = 'createDate'
+WHERE `id` = '183'' at line 1
+ERROR - 2024-02-16 03:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '184'' at line 1
+ERROR - 2024-02-16 03:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1088404200, 1 = 'createDate'
+WHERE `id` = '185'' at line 1
+ERROR - 2024-02-16 03:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1210833000, 1 = 'createDate'
+WHERE `id` = '186'' at line 1
+ERROR - 2024-02-16 03:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '187'' at line 1
+ERROR - 2024-02-16 03:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '188'' at line 1
+ERROR - 2024-02-16 03:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 959322600, 1 = 'createDate'
+WHERE `id` = '189'' at line 1
+ERROR - 2024-02-16 03:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1312180200, 1 = 'createDate'
+WHERE `id` = '190'' at line 1
+ERROR - 2024-02-16 03:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '191'' at line 1
+ERROR - 2024-02-16 03:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '192'' at line 1
+ERROR - 2024-02-16 03:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '193'' at line 1
+ERROR - 2024-02-16 03:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1098685800, 1 = 'createDate'
+WHERE `id` = '194'' at line 1
+ERROR - 2024-02-16 03:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1384241400, 1 = 'createDate'
+WHERE `id` = '195'' at line 1
+ERROR - 2024-02-16 03:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '196'' at line 1
+ERROR - 2024-02-16 03:13:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '197'' at line 1
+ERROR - 2024-02-16 03:13:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '198'' at line 1
+ERROR - 2024-02-16 03:13:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1104910200, 1 = 'createDate'
+WHERE `id` = '199'' at line 1
+ERROR - 2024-02-16 03:13:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1305700200, 1 = 'createDate'
+WHERE `id` = '200'' at line 1
+ERROR - 2024-02-16 03:13:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1385105400, 1 = 'createDate'
+WHERE `id` = '201'' at line 1
+ERROR - 2024-02-16 03:13:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1519367400, 1 = 'createDate'
+WHERE `id` = '202'' at line 1
+ERROR - 2024-02-16 03:13:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '203'' at line 1
+ERROR - 2024-02-16 03:13:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1340865000, 1 = 'createDate'
+WHERE `id` = '204'' at line 1
+ERROR - 2024-02-16 03:13:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1516775400, 1 = 'createDate'
+WHERE `id` = '205'' at line 1
+ERROR - 2024-02-16 03:13:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '206'' at line 1
+ERROR - 2024-02-16 03:13:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '207'' at line 1
+ERROR - 2024-02-16 03:13:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1277101800, 1 = 'createDate'
+WHERE `id` = '208'' at line 1
+ERROR - 2024-02-16 03:13:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1112337000, 1 = 'createDate'
+WHERE `id` = '209'' at line 1
+ERROR - 2024-02-16 03:13:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '210'' at line 1
+ERROR - 2024-02-16 03:13:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 966580200, 1 = 'createDate'
+WHERE `id` = '211'' at line 1
+ERROR - 2024-02-16 03:13:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1360049400, 1 = 'createDate'
+WHERE `id` = '212'' at line 1
+ERROR - 2024-02-16 03:13:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1311575400, 1 = 'createDate'
+WHERE `id` = '213'' at line 1
+ERROR - 2024-02-16 03:13:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '214'' at line 1
+ERROR - 2024-02-16 03:13:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '215'' at line 1
+ERROR - 2024-02-16 03:13:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1346049000, 1 = 'createDate'
+WHERE `id` = '216'' at line 1
+ERROR - 2024-02-16 03:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '217'' at line 1
+ERROR - 2024-02-16 03:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1339050600, 1 = 'createDate'
+WHERE `id` = '218'' at line 1
+ERROR - 2024-02-16 03:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 959927400, 1 = 'createDate'
+WHERE `id` = '219'' at line 1
+ERROR - 2024-02-16 03:13:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '220'' at line 1
+ERROR - 2024-02-16 03:13:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1653028200, 1 = 'createDate'
+WHERE `id` = '221'' at line 1
+ERROR - 2024-02-16 03:13:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '222'' at line 1
+ERROR - 2024-02-16 03:13:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 962951400, 1 = 'createDate'
+WHERE `id` = '223'' at line 1
+ERROR - 2024-02-16 03:13:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1276151400, 1 = 'createDate'
+WHERE `id` = '224'' at line 1
+ERROR - 2024-02-16 03:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1285309800, 1 = 'createDate'
+WHERE `id` = '225'' at line 1
+ERROR - 2024-02-16 03:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '226'' at line 1
+ERROR - 2024-02-16 03:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '227'' at line 1
+ERROR - 2024-02-16 03:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1139556600, 1 = 'createDate'
+WHERE `id` = '228'' at line 1
+ERROR - 2024-02-16 03:13:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '229'' at line 1
+ERROR - 2024-02-16 03:13:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1265959800, 1 = 'createDate'
+WHERE `id` = '230'' at line 1
+ERROR - 2024-02-16 03:13:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '231'' at line 1
+ERROR - 2024-02-16 03:13:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1607063400, 1 = 'createDate'
+WHERE `id` = '232'' at line 1
+ERROR - 2024-02-16 03:13:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '233'' at line 1
+ERROR - 2024-02-16 03:13:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '234'' at line 1
+ERROR - 2024-02-16 03:13:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '235'' at line 1
+ERROR - 2024-02-16 03:13:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '236'' at line 1
+ERROR - 2024-02-16 03:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '237'' at line 1
+ERROR - 2024-02-16 03:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '238'' at line 1
+ERROR - 2024-02-16 03:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '239'' at line 1
+ERROR - 2024-02-16 03:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1663655400, 1 = 'createDate'
+WHERE `id` = '240'' at line 1
+ERROR - 2024-02-16 03:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1628145000, 1 = 'createDate'
+WHERE `id` = '241'' at line 1
+ERROR - 2024-02-16 03:13:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '242'' at line 1
+ERROR - 2024-02-16 03:13:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1337841000, 1 = 'createDate'
+WHERE `id` = '243'' at line 1
+ERROR - 2024-02-16 03:13:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 968221800, 1 = 'createDate'
+WHERE `id` = '244'' at line 1
+ERROR - 2024-02-16 03:13:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '245'' at line 1
+ERROR - 2024-02-16 03:13:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1635834600, 1 = 'createDate'
+WHERE `id` = '246'' at line 1
+ERROR - 2024-02-16 03:13:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '247'' at line 1
+ERROR - 2024-02-16 03:13:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1320305400, 1 = 'createDate'
+WHERE `id` = '248'' at line 1
+ERROR - 2024-02-16 03:13:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1165822200, 1 = 'createDate'
+WHERE `id` = '249'' at line 1
+ERROR - 2024-02-16 03:13:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1172475000, 1 = 'createDate'
+WHERE `id` = '250'' at line 1
+ERROR - 2024-02-16 03:13:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '251'' at line 1
+ERROR - 2024-02-16 03:13:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1014276600, 1 = 'createDate'
+WHERE `id` = '252'' at line 1
+ERROR - 2024-02-16 03:13:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '253'' at line 1
+ERROR - 2024-02-16 03:13:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '254'' at line 1
+ERROR - 2024-02-16 03:13:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1303281000, 1 = 'createDate'
+WHERE `id` = '255'' at line 1
+ERROR - 2024-02-16 03:13:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '256'' at line 1
+ERROR - 2024-02-16 03:13:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1353051000, 1 = 'createDate'
+WHERE `id` = '257'' at line 1
+ERROR - 2024-02-16 03:13:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1369290600, 1 = 'createDate'
+WHERE `id` = '258'' at line 1
+ERROR - 2024-02-16 03:13:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1342420200, 1 = 'createDate'
+WHERE `id` = '259'' at line 1
+ERROR - 2024-02-16 03:13:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1077521400, 1 = 'createDate'
+WHERE `id` = '260'' at line 1
+ERROR - 2024-02-16 03:13:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1596695400, 1 = 'createDate'
+WHERE `id` = '261'' at line 1
+ERROR - 2024-02-16 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '262'' at line 1
+ERROR - 2024-02-16 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1306391400, 1 = 'createDate'
+WHERE `id` = '263'' at line 1
+ERROR - 2024-02-16 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '264'' at line 1
+ERROR - 2024-02-16 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '265'' at line 1
+ERROR - 2024-02-16 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1341297000, 1 = 'createDate'
+WHERE `id` = '266'' at line 1
+ERROR - 2024-02-16 03:13:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '267'' at line 1
+ERROR - 2024-02-16 03:13:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '268'' at line 1
+ERROR - 2024-02-16 03:13:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1639636200, 1 = 'createDate'
+WHERE `id` = '269'' at line 1
+ERROR - 2024-02-16 03:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '270'' at line 1
+ERROR - 2024-02-16 03:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '271'' at line 1
+ERROR - 2024-02-16 03:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '272'' at line 1
+ERROR - 2024-02-16 03:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '273'' at line 1
+ERROR - 2024-02-16 03:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '274'' at line 1
+ERROR - 2024-02-16 03:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '275'' at line 1
+ERROR - 2024-02-16 03:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1027924200, 1 = 'createDate'
+WHERE `id` = '276'' at line 1
+ERROR - 2024-02-16 03:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '277'' at line 1
+ERROR - 2024-02-16 03:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1653028200, 1 = 'createDate'
+WHERE `id` = '278'' at line 1
+ERROR - 2024-02-16 03:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1336113000, 1 = 'createDate'
+WHERE `id` = '279'' at line 1
+ERROR - 2024-02-16 03:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '280'' at line 1
+ERROR - 2024-02-16 03:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '281'' at line 1
+ERROR - 2024-02-16 03:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '282'' at line 1
+ERROR - 2024-02-16 03:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1423035000, 1 = 'createDate'
+WHERE `id` = '283'' at line 1
+ERROR - 2024-02-16 03:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '284'' at line 1
+ERROR - 2024-02-16 03:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '285'' at line 1
+ERROR - 2024-02-16 03:13:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1266823800, 1 = 'createDate'
+WHERE `id` = '286'' at line 1
+ERROR - 2024-02-16 03:13:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '287'' at line 1
+ERROR - 2024-02-16 03:13:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1602225000, 1 = 'createDate'
+WHERE `id` = '288'' at line 1
+ERROR - 2024-02-16 03:13:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '289'' at line 1
+ERROR - 2024-02-16 03:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1431930600, 1 = 'createDate'
+WHERE `id` = '290'' at line 1
+ERROR - 2024-02-16 03:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1376375400, 1 = 'createDate'
+WHERE `id` = '291'' at line 1
+ERROR - 2024-02-16 03:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1619764200, 1 = 'createDate'
+WHERE `id` = '292'' at line 1
+ERROR - 2024-02-16 03:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '293'' at line 1
+ERROR - 2024-02-16 03:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '294'' at line 1
+ERROR - 2024-02-16 03:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1401690600, 1 = 'createDate'
+WHERE `id` = '295'' at line 1
+ERROR - 2024-02-16 03:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '296'' at line 1
+ERROR - 2024-02-16 03:13:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1291275000, 1 = 'createDate'
+WHERE `id` = '297'' at line 1
+ERROR - 2024-02-16 03:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '298'' at line 1
+ERROR - 2024-02-16 03:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1376634600, 1 = 'createDate'
+WHERE `id` = '299'' at line 1
+ERROR - 2024-02-16 03:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '300'' at line 1
+ERROR - 2024-02-16 03:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '301'' at line 1
+ERROR - 2024-02-16 03:13:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 968308200, 1 = 'createDate'
+WHERE `id` = '302'' at line 1
+ERROR - 2024-02-16 03:13:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1276497000, 1 = 'createDate'
+WHERE `id` = '303'' at line 1
+ERROR - 2024-02-16 03:13:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1145601000, 1 = 'createDate'
+WHERE `id` = '304'' at line 1
+ERROR - 2024-02-16 03:13:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '305'' at line 1
+ERROR - 2024-02-16 03:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 965284200, 1 = 'createDate'
+WHERE `id` = '306'' at line 1
+ERROR - 2024-02-16 03:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '307'' at line 1
+ERROR - 2024-02-16 03:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '308'' at line 1
+ERROR - 2024-02-16 03:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 981617400, 1 = 'createDate'
+WHERE `id` = '309'' at line 1
+ERROR - 2024-02-16 03:13:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1294385400, 1 = 'createDate'
+WHERE `id` = '310'' at line 1
+ERROR - 2024-02-16 03:13:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '311'' at line 1
+ERROR - 2024-02-16 03:13:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1619073000, 1 = 'createDate'
+WHERE `id` = '312'' at line 1
+ERROR - 2024-02-16 03:13:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '313'' at line 1
+ERROR - 2024-02-16 03:13:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1425454200, 1 = 'createDate'
+WHERE `id` = '314'' at line 1
+ERROR - 2024-02-16 03:13:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '315'' at line 1
+ERROR - 2024-02-16 03:13:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '316'' at line 1
+ERROR - 2024-02-16 03:13:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1346135400, 1 = 'createDate'
+WHERE `id` = '317'' at line 1
+ERROR - 2024-02-16 03:13:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1266823800, 1 = 'createDate'
+WHERE `id` = '318'' at line 1
+ERROR - 2024-02-16 03:13:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 962865000, 1 = 'createDate'
+WHERE `id` = '319'' at line 1
+ERROR - 2024-02-16 03:13:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1559284200, 1 = 'createDate'
+WHERE `id` = '320'' at line 1
+ERROR - 2024-02-16 03:13:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1623306600, 1 = 'createDate'
+WHERE `id` = '321'' at line 1
+ERROR - 2024-02-16 03:13:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '322'' at line 1
+ERROR - 2024-02-16 03:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1296718200, 1 = 'createDate'
+WHERE `id` = '323'' at line 1
+ERROR - 2024-02-16 03:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '324'' at line 1
+ERROR - 2024-02-16 03:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1447745400, 1 = 'createDate'
+WHERE `id` = '325'' at line 1
+ERROR - 2024-02-16 03:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1369117800, 1 = 'createDate'
+WHERE `id` = '326'' at line 1
+ERROR - 2024-02-16 03:13:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '327'' at line 1
+ERROR - 2024-02-16 03:13:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '328'' at line 1
+ERROR - 2024-02-16 03:13:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '329'' at line 1
+ERROR - 2024-02-16 03:13:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1637908200, 1 = 'createDate'
+WHERE `id` = '330'' at line 1
+ERROR - 2024-02-16 03:13:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '331'' at line 1
+ERROR - 2024-02-16 03:13:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '332'' at line 1
+ERROR - 2024-02-16 03:13:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '333'' at line 1
+ERROR - 2024-02-16 03:13:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '334'' at line 1
+ERROR - 2024-02-16 03:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '335'' at line 1
+ERROR - 2024-02-16 03:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '336'' at line 1
+ERROR - 2024-02-16 03:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '337'' at line 1
+ERROR - 2024-02-16 03:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1657175400, 1 = 'createDate'
+WHERE `id` = '338'' at line 1
+ERROR - 2024-02-16 03:13:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '339'' at line 1
+ERROR - 2024-02-16 03:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '340'' at line 1
+ERROR - 2024-02-16 03:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1337668200, 1 = 'createDate'
+WHERE `id` = '341'' at line 1
+ERROR - 2024-02-16 03:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 973755000, 1 = 'createDate'
+WHERE `id` = '342'' at line 1
+ERROR - 2024-02-16 03:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1340951400, 1 = 'createDate'
+WHERE `id` = '343'' at line 1
+ERROR - 2024-02-16 03:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1381127400, 1 = 'createDate'
+WHERE `id` = '344'' at line 1
+ERROR - 2024-02-16 03:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '345'' at line 1
+ERROR - 2024-02-16 03:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '346'' at line 1
+ERROR - 2024-02-16 03:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '347'' at line 1
+ERROR - 2024-02-16 03:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1047627000, 1 = 'createDate'
+WHERE `id` = '348'' at line 1
+ERROR - 2024-02-16 03:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1617949800, 1 = 'createDate'
+WHERE `id` = '349'' at line 1
+ERROR - 2024-02-16 03:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '350'' at line 1
+ERROR - 2024-02-16 03:13:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '351'' at line 1
+ERROR - 2024-02-16 03:13:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '352'' at line 1
+ERROR - 2024-02-16 03:13:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '353'' at line 1
+ERROR - 2024-02-16 03:13:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1623306600, 1 = 'createDate'
+WHERE `id` = '354'' at line 1
+ERROR - 2024-02-16 03:13:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1014276600, 1 = 'createDate'
+WHERE `id` = '355'' at line 1
+ERROR - 2024-02-16 03:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1580452200, 1 = 'createDate'
+WHERE `id` = '356'' at line 1
+ERROR - 2024-02-16 03:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '357'' at line 1
+ERROR - 2024-02-16 03:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '358'' at line 1
+ERROR - 2024-02-16 03:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '359'' at line 1
+ERROR - 2024-02-16 03:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1645684200, 1 = 'createDate'
+WHERE `id` = '360'' at line 1
+ERROR - 2024-02-16 03:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '361'' at line 1
+ERROR - 2024-02-16 03:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1353655800, 1 = 'createDate'
+WHERE `id` = '362'' at line 1
+ERROR - 2024-02-16 03:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '363'' at line 1
+ERROR - 2024-02-16 03:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '364'' at line 1
+ERROR - 2024-02-16 03:13:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '365'' at line 1
+ERROR - 2024-02-16 03:13:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '366'' at line 1
+ERROR - 2024-02-16 03:13:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 979198200, 1 = 'createDate'
+WHERE `id` = '367'' at line 1
+ERROR - 2024-02-16 03:13:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '368'' at line 1
+ERROR - 2024-02-16 03:13:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1455780600, 1 = 'createDate'
+WHERE `id` = '369'' at line 1
+ERROR - 2024-02-16 03:13:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1280730600, 1 = 'createDate'
+WHERE `id` = '370'' at line 1
+ERROR - 2024-02-16 03:13:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1416468600, 1 = 'createDate'
+WHERE `id` = '371'' at line 1
+ERROR - 2024-02-16 03:13:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1195803000, 1 = 'createDate'
+WHERE `id` = '372'' at line 1
+ERROR - 2024-02-16 03:13:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1305613800, 1 = 'createDate'
+WHERE `id` = '373'' at line 1
+ERROR - 2024-02-16 03:13:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1289460600, 1 = 'createDate'
+WHERE `id` = '374'' at line 1
+ERROR - 2024-02-16 03:13:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1625207400, 1 = 'createDate'
+WHERE `id` = '375'' at line 1
+ERROR - 2024-02-16 03:13:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1305095400, 1 = 'createDate'
+WHERE `id` = '376'' at line 1
+ERROR - 2024-02-16 03:13:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1416555000, 1 = 'createDate'
+WHERE `id` = '377'' at line 1
+ERROR - 2024-02-16 03:13:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 983431800, 1 = 'createDate'
+WHERE `id` = '378'' at line 1
+ERROR - 2024-02-16 03:13:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '379'' at line 1
+ERROR - 2024-02-16 03:13:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1459146600, 1 = 'createDate'
+WHERE `id` = '380'' at line 1
+ERROR - 2024-02-16 03:13:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1374561000, 1 = 'createDate'
+WHERE `id` = '381'' at line 1
+ERROR - 2024-02-16 03:13:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1343889000, 1 = 'createDate'
+WHERE `id` = '382'' at line 1
+ERROR - 2024-02-16 03:13:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '383'' at line 1
+ERROR - 2024-02-16 03:13:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '384'' at line 1
+ERROR - 2024-02-16 03:13:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '385'' at line 1
+ERROR - 2024-02-16 03:13:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1318314600, 1 = 'createDate'
+WHERE `id` = '386'' at line 1
+ERROR - 2024-02-16 03:13:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '387'' at line 1
+ERROR - 2024-02-16 03:13:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1620282600, 1 = 'createDate'
+WHERE `id` = '388'' at line 1
+ERROR - 2024-02-16 03:13:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '389'' at line 1
+ERROR - 2024-02-16 03:13:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1323156600, 1 = 'createDate'
+WHERE `id` = '390'' at line 1
+ERROR - 2024-02-16 03:13:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '391'' at line 1
+ERROR - 2024-02-16 03:13:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1274423400, 1 = 'createDate'
+WHERE `id` = '392'' at line 1
+ERROR - 2024-02-16 03:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '393'' at line 1
+ERROR - 2024-02-16 03:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1402641000, 1 = 'createDate'
+WHERE `id` = '394'' at line 1
+ERROR - 2024-02-16 03:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '395'' at line 1
+ERROR - 2024-02-16 03:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '396'' at line 1
+ERROR - 2024-02-16 03:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1270794600, 1 = 'createDate'
+WHERE `id` = '397'' at line 1
+ERROR - 2024-02-16 03:13:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '398'' at line 1
+ERROR - 2024-02-16 03:13:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 962951400, 1 = 'createDate'
+WHERE `id` = '399'' at line 1
+ERROR - 2024-02-16 03:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '400'' at line 1
+ERROR - 2024-02-16 03:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1367562600, 1 = 'createDate'
+WHERE `id` = '401'' at line 1
+ERROR - 2024-02-16 03:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '402'' at line 1
+ERROR - 2024-02-16 03:14:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '403'' at line 1
+ERROR - 2024-02-16 03:14:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '404'' at line 1
+ERROR - 2024-02-16 03:14:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1557988200, 1 = 'createDate'
+WHERE `id` = '405'' at line 1
+ERROR - 2024-02-16 03:14:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '406'' at line 1
+ERROR - 2024-02-16 03:14:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '407'' at line 1
+ERROR - 2024-02-16 03:14:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1337668200, 1 = 'createDate'
+WHERE `id` = '408'' at line 1
+ERROR - 2024-02-16 03:14:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1291793400, 1 = 'createDate'
+WHERE `id` = '409'' at line 1
+ERROR - 2024-02-16 03:14:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1084170600, 1 = 'createDate'
+WHERE `id` = '410'' at line 1
+ERROR - 2024-02-16 03:14:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '411'' at line 1
+ERROR - 2024-02-16 03:14:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1683268200, 1 = 'createDate'
+WHERE `id` = '412'' at line 1
+ERROR - 2024-02-16 03:14:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1681972200, 1 = 'createDate'
+WHERE `id` = '413'' at line 1
+ERROR - 2024-02-16 03:14:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1690439400, 1 = 'createDate'
+WHERE `id` = '414'' at line 1
+ERROR - 2024-02-16 03:14:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1668580200, 1 = 'createDate'
+WHERE `id` = '415'' at line 1
+ERROR - 2024-02-16 03:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1698301800, 1 = 'createDate'
+WHERE `id` = '416'' at line 1
+ERROR - 2024-02-16 03:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1672036200, 1 = 'createDate'
+WHERE `id` = '417'' at line 1
+ERROR - 2024-02-16 03:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1700721000, 1 = 'createDate'
+WHERE `id` = '418'' at line 1
+ERROR - 2024-02-16 03:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1695277800, 1 = 'createDate'
+WHERE `id` = '419'' at line 1
+ERROR - 2024-02-16 03:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1700461800, 1 = 'createDate'
+WHERE `id` = '420'' at line 1
+ERROR - 2024-02-16 03:14:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1684391400, 1 = 'createDate'
+WHERE `id` = '421'' at line 1
+ERROR - 2024-02-16 03:14:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1692772200, 1 = 'createDate'
+WHERE `id` = '422'' at line 1
+ERROR - 2024-02-16 03:14:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1678948200, 1 = 'createDate'
+WHERE `id` = '423'' at line 1
+ERROR - 2024-02-16 03:14:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1692167400, 1 = 'createDate'
+WHERE `id` = '424'' at line 1
+ERROR - 2024-02-16 03:14:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '425'' at line 1
+ERROR - 2024-02-16 03:14:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1700548200, 1 = 'createDate'
+WHERE `id` = '426'' at line 1
+ERROR - 2024-02-16 03:14:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1686551400, 1 = 'createDate'
+WHERE `id` = '427'' at line 1
+ERROR - 2024-02-16 03:14:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1684391400, 1 = 'createDate'
+WHERE `id` = '428'' at line 1
+ERROR - 2024-02-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1695364200, 1 = 'createDate'
+WHERE `id` = '429'' at line 1
+ERROR - 2024-02-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1694500200, 1 = 'createDate'
+WHERE `id` = '430'' at line 1
+ERROR - 2024-02-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '431'' at line 1
+ERROR - 2024-02-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1686724200, 1 = 'createDate'
+WHERE `id` = '432'' at line 1
+ERROR - 2024-02-16 03:14:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1691044200, 1 = 'createDate'
+WHERE `id` = '433'' at line 1
+ERROR - 2024-02-16 03:14:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '434'' at line 1
+ERROR - 2024-02-16 03:14:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1694068200, 1 = 'createDate'
+WHERE `id` = '435'' at line 1
+ERROR - 2024-02-16 03:14:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1695191400, 1 = 'createDate'
+WHERE `id` = '436'' at line 1
+ERROR - 2024-02-16 03:14:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1692167400, 1 = 'createDate'
+WHERE `id` = '437'' at line 1
+ERROR - 2024-02-16 03:14:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1678343400, 1 = 'createDate'
+WHERE `id` = '438'' at line 1
+ERROR - 2024-02-16 03:14:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '439'' at line 1
+ERROR - 2024-02-16 03:14:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1682490600, 1 = 'createDate'
+WHERE `id` = '440'' at line 1
+ERROR - 2024-02-16 03:14:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1698388200, 1 = 'createDate'
+WHERE `id` = '441'' at line 1
+ERROR - 2024-02-16 03:14:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1697697000, 1 = 'createDate'
+WHERE `id` = '442'' at line 1
+ERROR - 2024-02-16 03:14:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1693290600, 1 = 'createDate'
+WHERE `id` = '443'' at line 1
+ERROR - 2024-02-16 03:14:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1686724200, 1 = 'createDate'
+WHERE `id` = '444'' at line 1
+ERROR - 2024-02-16 03:14:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1697092200, 1 = 'createDate'
+WHERE `id` = '445'' at line 1
+ERROR - 2024-02-16 03:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1694759400, 1 = 'createDate'
+WHERE `id` = '446'' at line 1
+ERROR - 2024-02-16 03:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '447'' at line 1
+ERROR - 2024-02-16 03:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '448'' at line 1
+ERROR - 2024-02-16 03:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1697610600, 1 = 'createDate'
+WHERE `id` = '449'' at line 1
+ERROR - 2024-02-16 03:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1690353000, 1 = 'createDate'
+WHERE `id` = '450'' at line 1
+ERROR - 2024-02-16 03:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '451'' at line 1
+ERROR - 2024-02-16 03:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1686810600, 1 = 'createDate'
+WHERE `id` = '452'' at line 1
+ERROR - 2024-02-16 03:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '453'' at line 1
+ERROR - 2024-02-16 03:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1675751400, 1 = 'createDate'
+WHERE `id` = '454'' at line 1
+ERROR - 2024-02-16 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '455'' at line 1
+ERROR - 2024-02-16 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1683700200, 1 = 'createDate'
+WHERE `id` = '456'' at line 1
+ERROR - 2024-02-16 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1692599400, 1 = 'createDate'
+WHERE `id` = '457'' at line 1
+ERROR - 2024-02-16 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1695969000, 1 = 'createDate'
+WHERE `id` = '458'' at line 1
+ERROR - 2024-02-16 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1697437800, 1 = 'createDate'
+WHERE `id` = '459'' at line 1
+ERROR - 2024-02-16 03:14:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1672295400, 1 = 'createDate'
+WHERE `id` = '460'' at line 1
+ERROR - 2024-02-16 03:14:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '461'' at line 1
+ERROR - 2024-02-16 03:14:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '462'' at line 1
+ERROR - 2024-02-16 03:14:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1266823800, 1 = 'createDate'
+WHERE `id` = '463'' at line 1
+ERROR - 2024-02-16 03:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1672036200, 1 = 'createDate'
+WHERE `id` = '464'' at line 1
+ERROR - 2024-02-16 03:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '465'' at line 1
+ERROR - 2024-02-16 03:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '466'' at line 1
+ERROR - 2024-02-16 03:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 958026600, 1 = 'createDate'
+WHERE `id` = '467'' at line 1
+ERROR - 2024-02-16 03:14:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1390289400, 1 = 'createDate'
+WHERE `id` = '468'' at line 1
+ERROR - 2024-02-16 03:14:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '469'' at line 1
+ERROR - 2024-02-16 03:14:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1634797800, 1 = 'createDate'
+WHERE `id` = '470'' at line 1
+ERROR - 2024-02-16 03:14:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = NULL, 1 = 'createDate'
+WHERE `id` = '471'' at line 1
+ERROR - 2024-02-16 03:14:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1115188200, 1 = 'createDate'
+WHERE `id` = '472'' at line 1
+ERROR - 2024-02-16 03:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '473'' at line 1
+ERROR - 2024-02-16 03:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1422948600, 1 = 'createDate'
+WHERE `id` = '474'' at line 1
+ERROR - 2024-02-16 03:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1363159800, 1 = 'createDate'
+WHERE `id` = '475'' at line 1
+ERROR - 2024-02-16 03:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1438583400, 1 = 'createDate'
+WHERE `id` = '476'' at line 1
+ERROR - 2024-02-16 03:14:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '477'' at line 1
+ERROR - 2024-02-16 03:14:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 967703400, 1 = 'createDate'
+WHERE `id` = '478'' at line 1
+ERROR - 2024-02-16 03:14:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1642055400, 1 = 'createDate'
+WHERE `id` = '479'' at line 1
+ERROR - 2024-02-16 03:14:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1151044200, 1 = 'createDate'
+WHERE `id` = '480'' at line 1
+ERROR - 2024-02-16 03:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1182493800, 1 = 'createDate'
+WHERE `id` = '481'' at line 1
+ERROR - 2024-02-16 03:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1628749800, 1 = 'createDate'
+WHERE `id` = '482'' at line 1
+ERROR - 2024-02-16 03:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1619764200, 1 = 'createDate'
+WHERE `id` = '483'' at line 1
+ERROR - 2024-02-16 03:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 959322600, 1 = 'createDate'
+WHERE `id` = '484'' at line 1
+ERROR - 2024-02-16 03:14:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1621233000, 1 = 'createDate'
+WHERE `id` = '485'' at line 1
+ERROR - 2024-02-16 03:14:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '486'' at line 1
+ERROR - 2024-02-16 03:14:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '487'' at line 1
+ERROR - 2024-02-16 03:14:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '488'' at line 1
+ERROR - 2024-02-16 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '489'' at line 1
+ERROR - 2024-02-16 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 957940200, 1 = 'createDate'
+WHERE `id` = '490'' at line 1
+ERROR - 2024-02-16 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1343197800, 1 = 'createDate'
+WHERE `id` = '491'' at line 1
+ERROR - 2024-02-16 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1707805800, 1 = 'createDate'
+WHERE `id` = '492'' at line 1
+ERROR - 2024-02-16 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1707805800, 1 = 'createDate'
+WHERE `id` = '493'' at line 1
+ERROR - 2024-02-16 03:14:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 1698129000, 1 = 'createDate'
+WHERE `id` = '494'' at line 1
+CRITICAL - 2024-02-16 03:15:48 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

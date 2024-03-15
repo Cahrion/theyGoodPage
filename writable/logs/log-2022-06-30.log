@@ -1,0 +1,20 @@
+CRITICAL - 2022-06-30 03:52:35 --> Undefined variable $settings
+#0 C:\xampp\htdocs\weProject\menum\app\Views\YonetimPaneli\includes\footer.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\weProject\menum\app\Views\YonetimPaneli\anasayfa.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\menum\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\menum\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\menum\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/a...', Array, true)
+#5 C:\xampp\htdocs\weProject\menum\app\Controllers\Yonetim\Anasayfa.php(47): view('YonetimPaneli/a...', Array)
+#6 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->index()
+#7 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#8 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-30 04:01:36 --> unlink(img/b9bc6010b50ede9af5f2751d7.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/b9bc...', 'C:\\xampp\\htdocs...', 251)
+#1 C:\xampp\htdocs\weProject\menum\app\Controllers\Yonetim\Anasayfa.php(251): unlink('img/b9bc6010b50...')
+#2 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->sil_sonuc('35')
+#3 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#4 C:\xampp\htdocs\weProject\menum\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\menum\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

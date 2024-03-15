@@ -1,0 +1,226 @@
+CRITICAL - 2022-05-23 01:20:52 --> Undefined property: App\Controllers\Yonetim\Admin::$load
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 01:21:10 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php on line 23
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php(23): view('YonetimPaneli/i...', Object(stdClass))
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 01:22:20 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php on line 23
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php(23): view('YonetimPaneli/i...', Object(stdClass))
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 01:22:48 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php on line 23
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\admin.php(23): view('YonetimPaneli/i...', Object(stdClass))
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index('BosAlan')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 01:47:37 --> Array callback has to contain indices 0 and 1
+#0 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->sonuc()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 01:48:11 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\weProject\weSites\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\weProject\weSites\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Yonetim/Panel/T...')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Yonetim/Panel/T...')
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 02:02:45 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 02:03:32 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 02:04:21 --> Undefined variable $config
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Admin.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\weProject\weSites\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 02:04:44 --> Undefined array key "Yonetici"
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Admin->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Admin))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 02:46:50 --> Undefined array key 1
+#0 C:\xampp\htdocs\weProject\weSites\system\Router\Router.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 429)
+#1 C:\xampp\htdocs\weProject\weSites\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('Yonetim/Panel/T...')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Yonetim/Panel/T...')
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 03:01:14 --> Invalid file: pano.php
+#0 C:\xampp\htdocs\weProject\weSites\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pano.php')
+#1 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('pano', Array, true)
+#2 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('pano', Array)
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#4 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 03:01:44 --> Undefined variable $wePlus
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 03:01:55 --> include(../includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:02:32 --> include(): https:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:03:14 --> include(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): SSL ...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:04:01 --> include(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): SSL ...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:04:50 --> include(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): SSL ...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:04:52 --> include(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): SSL ...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(35): include()
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#5 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#8 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 03:36:50 --> Undefined variable $SorularSayisi
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\pano.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/p...', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Panel.php(16): view('YonetimPaneli/p...', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Panel->index()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Panel))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 06:32:43 --> Undefined property: CodeIgniter\View\View::$Kullanici_model
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\anasayfa.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/a...', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(32): view('YonetimPaneli/a...', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->index()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-23 06:37:56 --> Table 'wesites.anasayfa' doesn't exist
+CRITICAL - 2022-05-23 06:37:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(33): App\Models\YonetimModel->getContents()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:38:48 --> Undefined property: CodeIgniter\View\View::$Kullanici_model
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\YonetimPaneli\anasayfa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('YonetimPaneli/a...', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(35): view('YonetimPaneli/a...', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->index()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 06:47:58 --> Undefined property: App\Controllers\Yonetim\Anasayfa::$db
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Yonetim\Anasayfa.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Yonetim\Anasayfa->guncelle('4')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yonetim\Anasayfa))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

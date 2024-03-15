@@ -1,0 +1,6 @@
+CRITICAL - 2023-05-26 15:12:22 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Fpanel\Product->add_result()
+#1 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Product))
+#2 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

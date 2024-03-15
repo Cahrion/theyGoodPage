@@ -1,0 +1,299 @@
+CRITICAL - 2023-06-02 15:07:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Home.php(24): CodeIgniter\Model->__call('updSumUsers', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:08:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\Home.php(41): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:09:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:09:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:12:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:12:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:12:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:13:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:13:29 --> Undefined variable $productDetails
+#0 C:\xampp\htdocs\myProject\myDance\app\Views\ourPackages.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\myProject\myDance\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myDance\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myDance\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myDance\app\Controllers\Home.php(46): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-02 15:13:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:16:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:17:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:17:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:17:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:18:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:18:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:27:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:28:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:31:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:32:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:32:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:33:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:34:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:34:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:34:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:34:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:35:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:35:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:36:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:40:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 15:41:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 16:09:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 23:01:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myProject\myDance\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myProject\myDance\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myProject\myDance\app\Controllers\SoftPHP.php(117): CodeIgniter\Model->__call('getCategoriesOn...', Array)
+#3 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#4 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#5 C:\xampp\htdocs\myProject\myDance\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myProject\myDance\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

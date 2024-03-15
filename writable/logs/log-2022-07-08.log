@@ -1,0 +1,179 @@
+CRITICAL - 2022-07-08 05:07:05 --> Attempt to read property "uniqueName" on int
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\ourPackages.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\OurPackages.php(47): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 05:09:39 --> Attempt to read property "uniqueName" on int
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\ourPackages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\OurPackages.php(47): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 05:09:40 --> Attempt to read property "uniqueName" on int
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\ourPackages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\OurPackages.php(47): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 05:09:55 --> Attempt to read property "uniqueName" on int
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Views\ourPackages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\OurPackages.php(47): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#6 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 05:13:57 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#2 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\OurPackages.php(47): view('ourPackages', Array)
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 15:12:48 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Helpers\fonksiyonlar_helper.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(229): MD5toSalt('9d5wa98daw', 1657282368)
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->update_result_name()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-08 15:12:59 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Helpers\fonksiyonlar_helper.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(229): MD5toSalt('9d5wa98daw', 1657282379)
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->update_result_name()
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-08 15:14:10 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(123): MD5toSalt('uniqueSss', 1657282450)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->add_result()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 15:15:29 --> unlink(img/imgCreator/img/imgCreator/a63c858ed172110bf935409b2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/imgC...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(252): unlink('img/imgCreator/...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->delete_result('1')
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-08 15:16:10 --> Attempt to read property "barcode" on null
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\Desk.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 249)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\Desk->delete_result('1')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Desk))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 07:27:06 --> Unknown column 'deskUniqueName' in 'field list'
+ERROR - 2022-07-08 07:27:16 --> Unknown column 'deskUniqueName' in 'where clause'
+CRITICAL - 2022-07-08 07:27:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(90): App\Models\CartModel->getCart('051eaf2833651e8...', 'ad38fcde8efcb04...')
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 07:27:23 --> Unknown column 'deskUniqueName' in 'where clause'
+CRITICAL - 2022-07-08 07:27:23 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(90): App\Models\CartModel->getCart('051eaf2833651e8...', 'ad38fcde8efcb04...')
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 07:27:24 --> Unknown column 'deskUniqueName' in 'where clause'
+CRITICAL - 2022-07-08 07:27:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(90): App\Models\CartModel->getCart('051eaf2833651e8...', 'ad38fcde8efcb04...')
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 07:27:26 --> Unknown column 'deskUniqueName' in 'where clause'
+CRITICAL - 2022-07-08 07:27:26 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(90): App\Models\CartModel->getCart('051eaf2833651e8...', 'ad38fcde8efcb04...')
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->cartAdd()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 07:27:27 --> Unknown column 'deskUniqueName' in 'where clause'
+CRITICAL - 2022-07-08 07:27:27 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(59): App\Models\CartModel->getCart('051eaf2833651e8...', 'ad38fcde8efcb04...')
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 07:27:46 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 07:28:00 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 13:40:48 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\weProject\FmenuPlus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\weProject\FmenuPlus\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Home.php(21): view('index', Array)
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 21:52:22 --> unlink(img/9a24f8bcac39b7ce110ba3cac.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/9a24...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\MainPage.php(207): unlink('img/9a24f8bcac3...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('36')
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-08 21:52:26 --> unlink(img/9a24f8bcac39b7ce110ba3cac.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/9a24...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\MainPage.php(207): unlink('img/9a24f8bcac3...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('36')
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-08 21:52:29 --> unlink(img/9a24f8bcac39b7ce110ba3cac.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/9a24...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\weProject\FmenuPlus\app\Controllers\Fpanel\MainPage.php(207): unlink('img/9a24f8bcac3...')
+#2 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(832): App\Controllers\Fpanel\MainPage->update_result('36')
+#3 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\MainPage))
+#4 C:\xampp\htdocs\weProject\FmenuPlus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\FmenuPlus\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

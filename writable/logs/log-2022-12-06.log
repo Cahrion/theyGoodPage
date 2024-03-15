@@ -1,0 +1,223 @@
+ERROR - 2022-12-06 22:39:52 --> Table 'we_cmenu.menudetailsfr' doesn't exist
+CRITICAL - 2022-12-06 22:39:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\1_Cmenu\app\Controllers\OurPackages.php(49): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\OurPackages->index()
+#2 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#3 C:\xampp\htdocs\weProject\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-06 22:44:33 --> Table 'my_blog.extraproduct' doesn't exist
+CRITICAL - 2022-12-06 22:44:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(140): App\Models\ExtraProductModel->getExtraProductForProductID('274')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 22:44:33 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-06 22:44:36 --> Table 'my_blog.extraproduct' doesn't exist
+CRITICAL - 2022-12-06 22:44:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(140): App\Models\ExtraProductModel->getExtraProductForProductID('274')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 22:44:36 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:04:01 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:04:01 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:04:16 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:04:16 --> Attempt to read property "productDetails" on null
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\OurPackages.php(67): view('products', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:04:22 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:04:22 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(49): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:04:54 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:16:52 --> Undefined property: stdClass::$productPrice
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:17:10 --> Undefined property: stdClass::$productPrice
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:19:16 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:19:16 --> Attempt to read property "productDetails" on null
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\OurPackages.php(67): view('products', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('limonata')
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:21:27 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProduct()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:22:00 --> Undefined property: stdClass::$productPrice
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\products.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\OurPackages.php(67): view('products', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\OurPackages->product('cay')
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OurPackages))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:24:48 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(125): count('\xC3\x87ay')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:24:48 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:25:22 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Controllers\SoftPHP.php(125): count('\xC3\x87ay')
+#1 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\SoftPHP->getProductsForCategory()
+#2 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftPHP))
+#3 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 23:25:22 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:32:42 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 23:36:44 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\myProject\myBlog\app\Views\ourPackages.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myProject\myBlog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myProject\myBlog\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\myProject\myBlog\app\Controllers\Home.php(48): view('ourPackages', Array)
+#5 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myProject\myBlog\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myProject\myBlog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

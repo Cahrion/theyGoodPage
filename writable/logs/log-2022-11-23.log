@@ -1,0 +1,68 @@
+ERROR - 2022-11-23 00:00:33 --> Unknown column 'ProductID' in 'where clause'
+CRITICAL - 2022-11-23 00:00:33 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(468): App\Models\ProductModel->getProductDetails('351', 0, 'tr')
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(432): App\Controllers\Fpanel\Category->categoryIndexUpdate(Array, '351', 350)
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->categoryIndexChange()
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-23 00:11:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(642): CodeIgniter\Model->__call('getExtraProduct...', Array)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(614): App\Controllers\Fpanel\Category->productIndexUpdate(Array, '12', 11)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->productIndexChange()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-23 00:24:25 --> Call to undefined function App\Controllers\Fpanel\detectedLanguage()
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add_result()
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-23 00:24:46 --> Undefined variable $AProduct
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add_result()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 00:25:05 --> Undefined variable $incomingName
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add_result()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 00:25:18 --> Undefined variable $EAProduct
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\ExtraProduct.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\ExtraProduct->add_result()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\ExtraProduct))
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 00:26:05 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(642): CodeIgniter\Model->__call('getExtraProduct...', Array)
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Category.php(614): App\Controllers\Fpanel\Category->productIndexUpdate(Array, '26', 25)
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Category->productIndexChange()
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Category))
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-23 00:46:31 --> Undefined variable $activeLanguages
+#0 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\includes\topBar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Views\Fpanel\pano.php(12): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\Common.php(1089): CodeIgniter\View\View->render('Fpanel/pano', Array, true)
+#5 C:\xampp\htdocs\weProject2_0\1_Cmenu\app\Controllers\Fpanel\Panel.php(84): view('Fpanel/pano', Array)
+#6 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(832): App\Controllers\Fpanel\Panel->index('Okey')
+#7 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fpanel\Panel))
+#8 C:\xampp\htdocs\weProject2_0\1_Cmenu\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject2_0\1_Cmenu\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

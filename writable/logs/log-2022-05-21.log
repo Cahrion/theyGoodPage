@@ -1,0 +1,417 @@
+ERROR - 2022-05-21 03:04:17 --> Table 'wehotel.weplus' doesn't exist
+CRITICAL - 2022-05-21 03:04:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSite\app\Controllers\Home.php(13): App\Models\IslemModel->getWePlus()
+#1 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 03:07:59 --> Undefined variable $wePlus
+#0 C:\xampp\htdocs\weProject\weSite\app\Views\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\weProject\weSite\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSite\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSite\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\weProject\weSite\app\Controllers\Home.php(15): view('index', Array)
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 04:04:44 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Details->wePlus('duzen')
+#1 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#2 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 04:09:21 --> Attempt to read property "baslik" on null
+#0 C:\xampp\htdocs\weProject\weSite\app\Views\wePlus.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\weProject\weSite\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSite\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSite\system\Common.php(1089): CodeIgniter\View\View->render('wePlus', Array, true)
+#4 C:\xampp\htdocs\weProject\weSite\app\Controllers\Details.php(20): view('wePlus', Array)
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\Details->wePlus('duzen')
+#6 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Details))
+#7 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 04:39:17 --> Attempt to read property "baslik" on array
+#0 C:\xampp\htdocs\weProject\weSite\app\Views\ourPackages.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\weProject\weSite\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSite\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSite\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSite\app\Controllers\ourPackages.php(16): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(832): App\Controllers\ourPackages->index()
+#6 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSite\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSite\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:43:06 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:44:45 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:26 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:28 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:29 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:34 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:35 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:36 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:45:46 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:52:44 --> Unknown column 'QualityID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:07 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:08 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:09 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:10 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:11 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 12:53:12 --> Unknown column 'PackageID' in 'where clause'
+ERROR - 2022-05-21 14:15:24 --> Table 'wesites.ourpackages' doesn't exist
+CRITICAL - 2022-05-21 14:15:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(13): App\Models\IslemModel->getOurPackages()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-21 14:18:38 --> Table 'wesites.ourpackages' doesn't exist
+CRITICAL - 2022-05-21 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(14): App\Models\IslemModel->getOurPackages()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 14:28:06 --> Undefined property: stdClass::$baslik
+#0 C:\xampp\htdocs\weProject\weSites\app\Views\ourPackages.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\weProject\weSites\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weSites\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weSites\system\Common.php(1089): CodeIgniter\View\View->render('ourPackages', Array, true)
+#4 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(18): view('ourPackages', Array)
+#5 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index()
+#6 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#7 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 14:41:53 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\ourPackages.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\ourPackages->index('AnaSayfa')
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ourPackages))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-21 14:52:58 --> Table 'wesites.weplus' doesn't exist
+CRITICAL - 2022-05-21 14:52:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Home.php(13): App\Models\IslemModel->getWePlus()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-21 15:13:10 --> Table 'wesites.weplus' doesn't exist
+CRITICAL - 2022-05-21 15:13:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\weProject\weSites\app\Controllers\Home.php(13): App\Models\IslemModel->getWePlus()
+#1 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\weProject\weSites\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weSites\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

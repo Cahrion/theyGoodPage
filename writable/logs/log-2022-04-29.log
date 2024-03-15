@@ -1,0 +1,297 @@
+ERROR - 2022-04-29 10:22:45 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-29 10:22:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(14): App\Models\IslemModel->getRooms()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-29 10:23:07 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-29 10:23:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(14): App\Models\IslemModel->getRooms()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-29 10:24:41 --> include(includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): include()
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#5 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(12): view('rezervation/mai...')
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#8 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-29 10:25:02 --> include(../includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): include()
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#5 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#8 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-29 10:25:21 --> include(../includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): include()
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#5 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#8 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-29 10:25:24 --> include(../includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): include()
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#5 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#8 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-29 10:25:50 --> include(../includes/topBar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervation\main.php(21): include()
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#5 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#8 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-29 10:26:27 --> Invalid file: rezervation/main.php
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rezervation/mai...')
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 10:26:29 --> Invalid file: rezervation/main.php
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rezervation/mai...')
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 10:26:30 --> Invalid file: rezervation/main.php
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rezervation/mai...')
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 10:26:31 --> Invalid file: rezervation/main.php
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rezervation/mai...')
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 10:26:31 --> Invalid file: rezervation/main.php
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rezervation/mai...')
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervation/mai...', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervation/mai...')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 10:53:41 --> syntax error, unexpected variable "$maxDay", expecting "," or ";"
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervationMain', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(11): view('rezervationMain')
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 11:32:23 --> mktime(): Argument #4 ($month) must be of type ?int, string given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(35): mktime(0, 0, 0, '', '', '2022')
+#1 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 12:05:01 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\weProject\weHotel\app\Views\rezervationMain.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('rezervationMain', Array, true)
+#4 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(46): view('rezervationMain', Array)
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->index()
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#7 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 13:06:22 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1650344400)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:06:24 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:06:44 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:07:18 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:07:46 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:07:51 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:08:04 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:08:43 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:08:53 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:08:56 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:09:26 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 13:10:56 --> Undefined property: stdClass::$RoomID
+#0 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Rezervation.php(65): App\Models\IslemModel->getRoomInfo(1651294800)
+#2 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Rezervation->dayUpdate()
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rezervation))
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-29 14:31:38 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\weProject\weHotel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Common.php(1089): CodeIgniter\View\View->render('reservationMain', Array, true)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(51): view('reservationMain', Array)
+#3 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-29 14:49:40 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-29 14:49:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(46): App\Models\IslemModel->getRoomInfo(1651208400)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-29 17:23:15 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-29 17:23:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(42): App\Models\IslemModel->getRoomInfo(1651208400)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-29 22:46:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-04-29 22:46:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\weProject\weHotel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\weProject\weHotel\app\Models\IslemModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\weProject\weHotel\app\Controllers\Reservation.php(42): App\Models\IslemModel->getRoomInfo(1651208400)
+#4 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(832): App\Controllers\Reservation->index()
+#5 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#6 C:\xampp\htdocs\weProject\weHotel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\weProject\weHotel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
